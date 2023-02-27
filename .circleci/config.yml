@@ -77,9 +77,9 @@ jobs:
       OTHER_FOLDER: <<parameters.other_folder>>
     steps:
       - checkout
-#      - add_ssh_keys:
-#          fingerprints:
-#            - "$$SSHKEYFINGERPRINT"
+      - add_ssh_keys:
+          fingerprints:
+            - "9d:00:b9:e5:de:d7:ea:7e:93:7c:b0:31:91:53:66:55"
 #      - run:
 #          name: update and add extra statements of updating the ssh config for each private ssh key
 #          command: |
@@ -483,11 +483,11 @@ jobs:
           at: /tmp/workspace
       - add_ssh_keys:
           fingerprints:
-            - "$SSHKEYFINGERPRINT"
+            - "9d:00:b9:e5:de:d7:ea:7e:93:7c:b0:31:91:53:66:55"
       - run:
           name: update and add extra statements of updating the ssh config for each private ssh key
           command: |
-            $PWD/scripts/update_sshconfig.sh $$GENERATEDREPO
+            $PWD/scripts/update_sshconfig.sh OSLO-wegenenverkeer-generated
       - run:
           name: Checkout target repo
           workdir: /tmp
@@ -542,8 +542,8 @@ jobs:
           name: Push results to github
           workdir: /tmp/generated
           command: |
-            git config user.email "$$GITUSEREMAIL"
-            git config user.name "$$GITUSERNAME"
+            git config user.email "oslo@vlaanderen.be"
+            git config user.name "Circle CI Builder"
             git add .
             git status
             git commit -m "Applying changes from commit ${CIRCLE_SHA1}" --allow-empty
@@ -561,9 +561,9 @@ workflows:
           other_folder: dev
           test_folder: test
           production_folder: production
-          other_hostname: $$DEVHOSTNAME
-          test_hostname: $$TESTHOSTNAME
-          production_hostname: $$PRODHOSTNAME
+          other_hostname: https://wegenenverkeer.data.dev-vlaanderen.be
+          test_hostname: https://test.wegenenverkeer.data.vlaanderen.be
+          production_hostname: https://wegenenverkeer.data.vlaanderen.be
       - extract-jsonld-details:
           requires:
             - checkout
@@ -618,6 +618,6 @@ workflows:
             - render-context-details
             - render-voc-rdf
       - create-artifact:
-          repository: $$GITURL-GENERATEDREPO
+          repository: git@github.com:Informatievlaanderen/OSLO-wegenenverkeer-generated.git
           requires:
             - expand-links
