@@ -1,14 +1,14 @@
 {
-  "primeLanguage": "en",
+  "primeLanguage": "nl",
   "otherLanguages": [
-    "fr", "de"
+    "en", "fr"
   ],
-  "hostname": "https://dev.specs.org/",
-  "domain": "data.spec.org",
+  "hostname": "https://wegenenverkeer.data.dev-vlaanderen.be/",
+  "domain": "wegenenverkeer.data.vlaanderen.be",
   "publicationpoints" : ["dev"],
   "generatedrepository" : {
-	  "organisation": "GitHubOrganisation",
-	  "repository" : "GeneratedRepository",
+	  "organisation": "Informatievlaanderen",
+	  "repository" : "OSLO-wegenenverkeer-generated",
 	  "private" : false
   },
   "toolchainversion" : "3.0.5",
