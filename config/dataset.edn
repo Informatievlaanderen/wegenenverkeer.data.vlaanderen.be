@@ -1,0 +1,11 @@
+{
+ :wegenenverkeer     {:clj-pipelines/type                 :clj-pipelines/file-import
+                      :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/wegenenverkeer-test/all.ttl"
+                      :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/wegenenverkeer"
+                      :clj-pipelines/dumpname             "wegenenverkeer.ttl.gz"}
+ :wegenenverkeer-muuuid     {:clj-pipelines/type                 :clj-pipelines/file-import
+                      :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/wegenenverkeer-test/muuid.nt"
+                      :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/wegenenverkeer/muuuid"
+                      :clj-pipelines/dumpname             "wegenenverkeer.muuuid.ttl.gz"}
+
+}
