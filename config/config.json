@@ -5,7 +5,7 @@
   ],
   "hostname": "https://wegenenverkeer.data.dev-vlaanderen.be/",
   "domain": "wegenenverkeer.data.vlaanderen.be",
-  "publicationpoints" : ["test"],
+  "publicationpoints" : ["production"],
   "generatedrepository" : {
 	  "organisation": "Informatievlaanderen",
 	  "repository" : "OSLO-wegenenverkeer-generated",
