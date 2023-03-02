@@ -673,9 +673,10 @@
     }
   },
   {
+	  "dummy": "experiment",
     "urlref": "/doc/implementatiemodel/aarding/ontwerpdocument/2.6.0-RC2",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "b5fd4f91218a8065b602360a8b8a44eff9833daa",
+    "branchtag": "25814033c556202a24e1e2fe2f2cdb5b6470430d",
     "name": "aarding",
     "navigation": {
       "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.5.0-RC2"
