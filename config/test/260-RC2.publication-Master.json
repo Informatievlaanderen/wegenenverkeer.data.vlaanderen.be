@@ -1,0 +1,19 @@
+[
+
+{
+    "urlref": "/ns/proefenmeting",
+    "seealso": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.6.0-RC2",
+    "type": "voc"
+  },
+  
+  {
+    "urlref": "/doc/implementatiemodel/master/ontwerpdocument/2.6.0-RC2",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "eb8a5e80bb9e469d1a2da3b169c0491727776ae1",
+    "name": "master-otl",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.5.0-RC2"
+    },
+    "disabled" : true
+  }
+]
