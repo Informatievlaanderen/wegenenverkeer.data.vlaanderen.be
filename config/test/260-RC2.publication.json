@@ -534,7 +534,7 @@
   {
     "urlref": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.6.0-RC2",
     "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
-    "branchtag": "2.6.0-RC2",
+    "branchtag": "v2.6.0-RC2",
     "name": "punctueleverlichting",
     "navigation": {
       "prev": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.5.0-RC2",
@@ -546,7 +546,7 @@
   {
     "urlref": "/doc/implementatiemodel/aarding/ontwerpdocument/2.6.0-RC2",
     "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
-    "branchtag": "2.6.0-RC2",
+    "branchtag": "v2.6.0-RC2",
     "name": "aarding",
     "navigation": {
       "prev": "/doc/implementatiemodel/aarding/ontwerpdocument/2.5.0-RC2",
@@ -558,7 +558,7 @@
   {
     "urlref": "/doc/implementatiemodel/akela-failover/ontwerpdocument/2.6.0-RC2",
     "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
-    "branchtag": "2.6.0-RC2",
+    "branchtag": "v2.6.0-RC2",
     "name": "akela-failover",
     "navigation": {
       "prev": "/doc/implementatiemodel/akela-failover/ontwerpdocument/2.5.0-RC2",
@@ -570,7 +570,7 @@
   {
     "urlref": "/doc/implementatiemodel/elektromechanische-afbakening/ontwerpdocument/2.6.0-RC2",
     "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
-    "branchtag": "2.6.0-RC2",
+    "branchtag": "v2.6.0-RC2",
     "name": "elektromechanische-afbakening",
     "navigation": {
       "prev": "/doc/implementatiemodel/elektromechanische-afbakening/ontwerpdocument/2.5.0-RC2",
