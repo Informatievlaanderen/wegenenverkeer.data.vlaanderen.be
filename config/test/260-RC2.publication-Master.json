@@ -4,7 +4,7 @@
     "urlref": "/doc/implementatiemodel/master",
     "seealso": "/doc/implementatiemodel/master/ontwerpdocument/2.6.0-RC2",
     "type": "ap",
-    "disabled" : true
+    "disabled" : false
   },
   
   {
@@ -15,6 +15,6 @@
     "navigation": {
       "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.5.0-RC2"
     },
-    "disabled" : true
+    "disabled" : false
   }
 ]
