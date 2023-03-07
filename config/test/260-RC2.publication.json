@@ -30,12 +30,6 @@
     "type": "voc"
   },
   {
-    "urlref": "/doc/implementatiemodel/master",
-    "seealso": "/doc/implementatiemodel/master/ontwerpdocument/2.6.0-RC2",
-    "type": "ap",
-    "disabled" : true
-  },
-  {
     "urlref": "/doc/implementatiemodel/aim-object",
     "seealso": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.6.0-RC2",
     "type": "ap"
