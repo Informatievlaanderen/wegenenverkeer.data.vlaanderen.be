@@ -1,9 +1,10 @@
 [
 
-{
-    "urlref": "/ns/proefenmeting",
-    "seealso": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.6.0-RC2",
-    "type": "voc"
+  {
+    "urlref": "/doc/implementatiemodel/master",
+    "seealso": "/doc/implementatiemodel/master/ontwerpdocument/2.6.0-RC2",
+    "type": "ap",
+    "disabled" : true
   },
   
   {
