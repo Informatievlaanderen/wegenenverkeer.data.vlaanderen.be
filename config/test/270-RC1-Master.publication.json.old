@@ -3,9 +3,7 @@
   {
     "urlref": "/doc/implementatiemodel/master",
     "seealso": "/doc/implementatiemodel/master/ontwerpdocument/2.7.0-RC1",
-    "type": "ap",
-    "disabled" : "true"
-    
+    "type": "ap"  
   },
   
   {
@@ -14,8 +12,7 @@
     "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
     "name": "master-otl",
     "navigation": {
-      "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.6.0-RC2",
-    "disabled" : "true"
+      "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.6.0-RC2"
     }
   }
 ]
