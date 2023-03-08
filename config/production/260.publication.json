@@ -356,7 +356,7 @@
     "navigation": {
       "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.5.0"
     },
-    "disabled" : true
+    "disabled" : false
   }, 
   {
     "urlref": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.6.0",
