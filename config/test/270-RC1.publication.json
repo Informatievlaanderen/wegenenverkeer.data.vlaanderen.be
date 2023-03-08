@@ -637,7 +637,7 @@
     "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
     "name": "hoppinpunten",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.6.0-RC2"
+      "prev": "/doc/implementatiemodel/hoppinpunten/ontwerpdocument/2.6.0-RC2"
     }
   },
   {
@@ -646,7 +646,7 @@
     "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
     "name": "kabelsenleidingen",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.6.0-RC2"
+      "prev": "/doc/implementatiemodel/kabelsenleidingen/ontwerpdocument/2.6.0-RC2"
     }
   },
   {
@@ -655,7 +655,7 @@
     "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
     "name": "snelheidsroodlichtcamera",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.6.0-RC2"
+      "prev": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.6.0-RC2"
     }
   },
   {
@@ -664,7 +664,7 @@
     "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
     "name": "punctueleverlichting",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.6.0-RC2"
+      "prev": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.6.0-RC2"
     }
   },
   {
@@ -674,7 +674,7 @@
     "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
     "name": "aarding",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.6.0-RC2"
+      "prev": "/doc/implementatiemodel/aarding/ontwerpdocument/2.6.0-RC2"
     }
   },
   {
@@ -683,7 +683,7 @@
     "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
     "name": "akela-failover",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.6.0-RC2"
+      "prev": "/doc/implementatiemodel/akela-failover/ontwerpdocument/2.6.0-RC2"
     }
   },
   {
@@ -692,7 +692,7 @@
     "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
     "name": "elektromechanische-afbakening",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.6.0-RC2"
+      "prev": "/doc/implementatiemodel/elektromechanische-afbakening/ontwerpdocument/2.6.0-RC2"
     }
   },
   {
@@ -764,7 +764,7 @@
     "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
     "name": "toegangscontrole",
     "navigation": {
-      "prev": ""
+      "prev": "/doc/implementatiemodel/toegangscontrole/ontwerpdocument/2.6.0-RC2"
     }
   },
   {
