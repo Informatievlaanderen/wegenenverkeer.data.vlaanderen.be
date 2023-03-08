@@ -775,6 +775,24 @@
     "navigation": {
       "prev": "/doc/implementatiemodel/zoutbijlaadplaats/ontwerpdocument/2.6.0-RC2"
     }
+  },
+  {
+    "urlref": "/doc/implementatiemodel/ups/ontwerpdocument/2.7.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
+    "name": "ups",
+    "navigation": {
+      "prev": ""
+    }
+  },
+  {
+    "urlref": "/doc/implementatiemodel/wilddetectiesysteem/ontwerpdocument/2.7.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "39761120df39ff099fc8695cba1dd7cb380092d8",
+    "name": "wilddetectiesysteem",
+    "navigation": {
+      "prev": ""
+    }
   }
 
 
