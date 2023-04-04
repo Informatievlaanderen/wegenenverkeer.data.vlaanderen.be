@@ -280,6 +280,16 @@
     "seealso": "/doc/implementatiemodel/zoutbijlaadplaats/ontwerpdocument/2.7.0",
     "type": "ap"
   },
+  {
+    "urlref": "/doc/implementatiemodel/ups",
+    "seealso": "/doc/implementatiemodel/ups/ontwerpdocument/2.7.0",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/wilddetectiesysteem",
+    "seealso": "/doc/implementatiemodel/wilddetectiesysteem/ontwerpdocument/2.7.0",
+    "type": "ap"
+  },
   
   
   
@@ -767,7 +777,7 @@
     }
   },
   {
-    "urlref": "/doc/implementatiemodel/ups/ontwerpdocument/2.7.0-RC1",
+    "urlref": "/doc/implementatiemodel/ups/ontwerpdocument/2.7.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "a64623e2bfcd0abb7e9a3ca613e59b1acc7edd17",
     "name": "ups",
@@ -776,7 +786,7 @@
     }
   },
   {
-    "urlref": "/doc/implementatiemodel/wilddetectiesysteem/ontwerpdocument/2.7.0-RC1",
+    "urlref": "/doc/implementatiemodel/wilddetectiesysteem/ontwerpdocument/2.7.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "a64623e2bfcd0abb7e9a3ca613e59b1acc7edd17",
     "name": "wilddetectiesysteem",
