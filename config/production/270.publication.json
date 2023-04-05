@@ -33,7 +33,7 @@
     "urlref": "/doc/implementatiemodel/master",
     "seealso": "/doc/implementatiemodel/master/ontwerpdocument/2.7.0",
     "type": "ap",
-    "disabled" : true
+    "disabled" : false
   },
   {
     "urlref": "/doc/implementatiemodel/aim-object",
@@ -365,7 +365,8 @@
     "name": "master-otl",
     "navigation": {
       "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.6.0"
-    }
+    },
+    "dummy": 1
   }, 
   {
     "urlref": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.7.0",
