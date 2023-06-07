@@ -811,7 +811,8 @@
     "name": "wilddetectiesysteem",
     "navigation": {
       "prev": "/doc/implementatiemodel/wilddetectiesysteem/ontwerpdocument/2.7.0-RC1"
-    },
+    }
+	},
   {
     "urlref": "/doc/implementatiemodel/pompstation/ontwerpdocument/2.8.0-RC1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
@@ -819,7 +820,8 @@
     "name": "pompstation",
     "navigation": {
       "prev": ""
-    },
+    }
+	},
   {
     "urlref": "/doc/implementatiemodel/pompgroep/ontwerpdocument/2.8.0-RC1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
@@ -827,7 +829,8 @@
     "name": "pompgroep",
     "navigation": {
       "prev": ""
-    },
+    }
+	},
   {
     "urlref": "/doc/implementatiemodel/fundering/ontwerpdocument/2.8.0-RC1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
@@ -835,7 +838,8 @@
     "name": "fundering",
     "navigation": {
       "prev": ""
-    },
+    }
+	},
   {
     "urlref": "/doc/implementatiemodel/grondkerende-constructies/ontwerpdocument/2.8.0-RC1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
@@ -845,6 +849,4 @@
       "prev": ""
     }
   }
-
-
 ]
