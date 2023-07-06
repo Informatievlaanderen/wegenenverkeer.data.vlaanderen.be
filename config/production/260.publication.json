@@ -3,13 +3,14 @@
   
   
   
+  
    {
     "urlref": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.6.0",
     "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
     "branchtag": "v2.6.0",
     "name": "wegenenverkeer-implementatieelement",
     "navigation": {
-      "prev": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.5.0",
+      "prev": "/doc/vocabularium/wegenenverkeer/implementatieelement/",
     "next": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.7.1"
     },
     "type": "raw",
@@ -21,7 +22,7 @@
     "branchtag": "v2.6.0",
     "name": "wegenenverkeer-onderdeel",
     "navigation": {
-      "prev": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.5.0",
+      "prev": "/doc/vocabularium/wegenenverkeer/onderdeel/",
     "next": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.7.1"
     },  
 	"type": "raw",
@@ -33,7 +34,7 @@
     "branchtag": "v2.6.0",
     "name": "wegenenverkeer-installatie",
     "navigation": {
-      "prev": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.5.0",
+      "prev": "/doc/vocabularium/wegenenverkeer/installatie/",
     "next": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.7.1"
     },  
     "type": "raw",
@@ -45,7 +46,7 @@
     "branchtag": "v2.6.0",
     "name": "wegenenverkeer-levenscyclus",
     "navigation": {
-      "prev": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.5.0",
+      "prev": "/doc/vocabularium/wegenenverkeer/levenscyclus/",
     "next": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -57,7 +58,7 @@
     "branchtag": "v2.6.0",
     "name": "wegenenverkeer-abstracten",
     "navigation": {
-      "prev": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.5.0",
+      "prev": "/doc/vocabularium/wegenenverkeer/abstracten/",
     "next": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -69,7 +70,7 @@
     "branchtag": "v2.6.0",
     "name": "wegenenverkeer-proefenmeting",
     "navigation": {
-      "prev": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.5.0",
+      "prev": "/doc/vocabularium/wegenenverkeer/proefenmeting/",
     "next": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -81,7 +82,7 @@
     "branchtag": "v2.6.0",
     "name": "aim-object",
     "navigation": {
-      "prev": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/aim-object/",
     "next": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -93,12 +94,11 @@
     "branchtag": "v2.6.0",
     "name": "master-otl",
     "navigation": {
-      "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/master/",
     "next": "/doc/implementatiemodel/master/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
-   "directory": "/doc/implementatiemodel/master/ontwerpdocument/2.6.0" ,
-    "dummy": 2
+   "directory": "/doc/implementatiemodel/master/ontwerpdocument/2.6.0" 
   }, 
   {
     "urlref": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.6.0",
@@ -106,7 +106,7 @@
     "branchtag": "v2.6.0",
     "name": "lijnvormige-elementen",
     "navigation": {
-      "prev": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/lijnvormige-elementen/",
     "next": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -118,7 +118,7 @@
     "branchtag": "v2.6.0",
     "name": "riolering",
     "navigation": {
-      "prev": "/doc/implementatiemodel/riolering/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/riolering/",
     "next": "/doc/implementatiemodel/riolering/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -130,7 +130,7 @@
     "branchtag": "v2.6.0",
     "name": "signalisatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/signalisatie/",
     "next": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -142,7 +142,7 @@
     "branchtag": "v2.6.0",
     "name": "vegetatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/vegetatie/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/vegetatie/",
     "next": "/doc/implementatiemodel/vegetatie/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -154,7 +154,7 @@
     "branchtag": "v2.6.0",
     "name": "verharding-wegfundering",
     "navigation": {
-      "prev": "/doc/implementatiemodel/verharding-wegfundering/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/verharding-wegfundering/",
     "next": "/doc/implementatiemodel/verharding-wegfundering/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -166,7 +166,7 @@
     "branchtag": "v2.6.0",
     "name": "relaties",
     "navigation": {
-      "prev": "/doc/implementatiemodel/relaties/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/relaties/",
     "next": "/doc/implementatiemodel/relaties/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -178,7 +178,7 @@
     "branchtag": "v2.6.0",
     "name": "union-datatypes",
     "navigation": {
-      "prev": "/doc/implementatiemodel/union-datatypes/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/union-datatypes/",
     "next": "/doc/implementatiemodel/union-datatypes/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -190,7 +190,7 @@
     "branchtag": "v2.6.0",
     "name": "eenvoudige-datatypes",
     "navigation": {
-      "prev": "/doc/implementatiemodel/eenvoudige-datatypes/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/eenvoudige-datatypes/",
     "next": "/doc/implementatiemodel/eenvoudige-datatypes/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -202,7 +202,7 @@
     "branchtag": "v2.6.0",
     "name": "proeven-metingen",
     "navigation": {
-      "prev": "/doc/implementatiemodel/proeven-metingen/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/proeven-metingen/",
     "next": "/doc/implementatiemodel/proeven-metingen/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -214,7 +214,7 @@
     "branchtag": "v2.6.0",
     "name": "complexe-datatypes",
     "navigation": {
-      "prev": "/doc/implementatiemodel/complexe-datatypes/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/complexe-datatypes/",
     "next": "/doc/implementatiemodel/complexe-datatypes/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -226,7 +226,7 @@
     "branchtag": "v2.6.0",
     "name": "optisch-transport-netwerk",
     "navigation": {
-      "prev": "/doc/implementatiemodel/optisch-transport-netwerk/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/optisch-transport-netwerk/",
     "next": "/doc/implementatiemodel/optisch-transport-netwerk/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -238,7 +238,7 @@
     "branchtag": "v2.6.0",
     "name": "ecologische-maatregelen",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ecologische-maatregelen/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/ecologische-maatregelen/",
     "next": "/doc/implementatiemodel/ecologische-maatregelen/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -250,7 +250,7 @@
     "branchtag": "v2.6.0",
     "name": "kasten-cabines-behuizing",
     "navigation": {
-      "prev": "/doc/implementatiemodel/kasten-cabines-behuizing/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/kasten-cabines-behuizing/",
     "next": "/doc/implementatiemodel/kasten-cabines-behuizing/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -262,7 +262,7 @@
     "branchtag": "v2.6.0",
     "name": "elektrische-componenten",
     "navigation": {
-      "prev": "/doc/implementatiemodel/elektrische-componenten/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/elektrische-componenten/",
     "next": "/doc/implementatiemodel/elektrische-componenten/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -274,7 +274,7 @@
     "branchtag": "v2.6.0",
     "name": "dynamische-borden",
     "navigation": {
-      "prev": "/doc/implementatiemodel/dynamische-borden/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/dynamische-borden/",
     "next": "/doc/implementatiemodel/dynamische-borden/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -286,7 +286,7 @@
     "branchtag": "v2.6.0",
     "name": "slagboom-doorsteek",
     "navigation": {
-      "prev": "/doc/implementatiemodel/slagboom-doorsteek/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/slagboom-doorsteek/",
     "next": "/doc/implementatiemodel/slagboom-doorsteek/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -298,7 +298,7 @@
     "branchtag": "v2.6.0",
     "name": "luidspreker-intercom",
     "navigation": {
-      "prev": "/doc/implementatiemodel/luidspreker-intercom/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/luidspreker-intercom/",
     "next": "/doc/implementatiemodel/luidspreker-intercom/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -310,7 +310,7 @@
     "branchtag": "v2.6.0",
     "name": "camerainstallatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/camerainstallatie/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/camerainstallatie/",
     "next": "/doc/implementatiemodel/camerainstallatie/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -322,7 +322,7 @@
     "branchtag": "v2.6.0",
     "name": "meten-in-vlaanderen",
     "navigation": {
-      "prev": "/doc/implementatiemodel/meten-in-vlaanderen/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/meten-in-vlaanderen/",
     "next": "/doc/implementatiemodel/meten-in-vlaanderen/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -334,7 +334,7 @@
     "branchtag": "v2.6.0",
     "name": "tunnelevacuatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/tunnelevacuatie/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/tunnelevacuatie/",
     "next": "/doc/implementatiemodel/tunnelevacuatie/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -346,7 +346,7 @@
     "branchtag": "v2.6.0",
     "name": "luchtkwaliteit",
     "navigation": {
-      "prev": "/doc/implementatiemodel/luchtkwaliteit/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/luchtkwaliteit/",
     "next": "/doc/implementatiemodel/luchtkwaliteit/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -358,7 +358,7 @@
     "branchtag": "v2.6.0",
     "name": "brandleiding",
     "navigation": {
-      "prev": "/doc/implementatiemodel/brandleiding/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/brandleiding/",
     "next": "/doc/implementatiemodel/brandleiding/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -370,7 +370,7 @@
     "branchtag": "v2.6.0",
     "name": "ventilatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ventilatie/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/ventilatie/",
     "next": "/doc/implementatiemodel/ventilatie/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -382,7 +382,7 @@
     "branchtag": "v2.6.0",
     "name": "hulpposten",
     "navigation": {
-      "prev": "/doc/implementatiemodel/hulpposten/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/hulpposten/",
     "next": "/doc/implementatiemodel/hulpposten/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -394,7 +394,7 @@
     "branchtag": "v2.6.0",
     "name": "draagconstructies",
     "navigation": {
-      "prev": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/draagconstructies/",
     "next": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -406,7 +406,7 @@
     "branchtag": "v2.6.0",
     "name": "anpr-trajectcontrole",
     "navigation": {
-      "prev": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/anpr-trajectcontrole/",
     "next": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -418,7 +418,7 @@
     "branchtag": "v2.6.0",
     "name": "verkeersregelinstallatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/verkeersregelinstallatie/",
     "next": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -430,7 +430,7 @@
     "branchtag": "v2.6.0",
     "name": "zone-30",
     "navigation": {
-      "prev": "/doc/implementatiemodel/zone-30/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/zone-30/",
     "next": "/doc/implementatiemodel/zone-30/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -442,7 +442,7 @@
     "branchtag": "v2.6.0",
     "name": "software-hardware",
     "navigation": {
-      "prev": "/doc/implementatiemodel/software-hardware/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/software-hardware/",
     "next": "/doc/implementatiemodel/software-hardware/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -454,7 +454,7 @@
     "branchtag": "v2.6.0",
     "name": "inbreuken-zwaar-vervoer",
     "navigation": {
-      "prev": "/doc/implementatiemodel/inbreuken-zwaar-vervoer/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/inbreuken-zwaar-vervoer/",
     "next": "/doc/implementatiemodel/inbreuken-zwaar-vervoer/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -466,7 +466,7 @@
     "branchtag": "v2.6.0",
     "name": "verlichtingsinstallatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/verlichtingsinstallatie/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/verlichtingsinstallatie/",
     "next": "/doc/implementatiemodel/verlichtingsinstallatie/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -478,7 +478,7 @@
     "branchtag": "v2.6.0",
     "name": "fietstelinstallatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/fietstelinstallatie/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/fietstelinstallatie/",
     "next": "/doc/implementatiemodel/fietstelinstallatie/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -490,7 +490,7 @@
     "branchtag": "v2.6.0",
     "name": "ipnetwerk",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/ipnetwerk/",
     "next": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -502,7 +502,7 @@
     "branchtag": "v2.6.0",
     "name": "hoppinpunten",
     "navigation": {
-      "prev": "/doc/implementatiemodel/hoppinpunten/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/hoppinpunten/",
     "next": "/doc/implementatiemodel/hoppinpunten/ontwerpdocument/2.7.1"
     },  
     "type": "raw", 
@@ -514,7 +514,7 @@
     "branchtag": "v2.6.0",
     "name": "kabelsenleidingen",
     "navigation": {
-      "prev": "/doc/implementatiemodel/kabelsenleidingen/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/kabelsenleidingen/",
       "next": "/doc/implementatiemodel/kabelsenleidingen/ontwerpdocument/2.7.1"
     },
     "type": "raw",
@@ -526,7 +526,7 @@
     "branchtag": "v2.6.0",
     "name": "snelheidsroodlichtcamera",
     "navigation": {
-      "prev": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/snelheidsroodlichtcamera/",
       "next": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.7.1"
     },
     "type": "raw",
@@ -538,7 +538,7 @@
     "branchtag": "v2.6.0",
     "name": "punctueleverlichting",
     "navigation": {
-      "prev": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/punctueleverlichting/",
       "next": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.7.1"
     },
     "type": "raw",
@@ -550,7 +550,7 @@
     "branchtag": "v2.6.0",
     "name": "aarding",
     "navigation": {
-      "prev": "/doc/implementatiemodel/aarding/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/aarding/",
       "next": "/doc/implementatiemodel/aarding/ontwerpdocument/2.7.1"
     },
     "type": "raw",
@@ -562,7 +562,7 @@
     "branchtag": "v2.6.0",
     "name": "akela-failover",
     "navigation": {
-      "prev": "/doc/implementatiemodel/akela-failover/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/akela-failover/",
       "next": "/doc/implementatiemodel/akela-failover/ontwerpdocument/2.7.1"
     },
     "type": "raw",
@@ -574,7 +574,7 @@
     "branchtag": "v2.6.0",
     "name": "elektromechanische-afbakening",
     "navigation": {
-      "prev": "/doc/implementatiemodel/elektromechanische-afbakening/ontwerpdocument/2.5.0",
+      "prev": "/doc/implementatiemodel/elektromechanische-afbakening/",
       "next": "/doc/implementatiemodel/elektromechanische-afbakening/ontwerpdocument/2.7.1"
     },
     "type": "raw",
@@ -676,11 +676,6 @@
     "type": "raw",
     "directory": "/doc/implementatiemodel/zoutbijlaadplaats/ontwerpdocument/2.6.0"
   }
-  
-  
-  
-
-
 
 
 ]
