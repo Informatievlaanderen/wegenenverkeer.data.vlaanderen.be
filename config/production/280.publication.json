@@ -326,7 +326,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.8.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a72c24d524477319731699845952265c0e9d4068",
+    "branchtag": "fbc3c97e8af7853cce42a0a11127836d6fad3deb",
     "name": "wegenenverkeer-onderdeel",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.7.1"
@@ -335,7 +335,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.8.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a72c24d524477319731699845952265c0e9d4068",
+    "branchtag": "fbc3c97e8af7853cce42a0a11127836d6fad3deb",
     "name": "wegenenverkeer-installatie",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.7.1"
@@ -344,7 +344,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.8.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a72c24d524477319731699845952265c0e9d4068",
+    "branchtag": "fbc3c97e8af7853cce42a0a11127836d6fad3deb",
     "name": "wegenenverkeer-levenscyclus",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.7.1"
@@ -353,7 +353,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.8.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a72c24d524477319731699845952265c0e9d4068",
+    "branchtag": "fbc3c97e8af7853cce42a0a11127836d6fad3deb",
     "name": "wegenenverkeer-abstracten",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.7.1"
