@@ -30,11 +30,6 @@
     "type": "voc"
   },
   {
-    "urlref": "/doc/implementatiemodel/master",
-    "seealso": "/doc/implementatiemodel/master/ontwerpdocument/2.9.0",
-    "type": "ap"
-  },
-  {
     "urlref": "/doc/implementatiemodel/aim-object",
     "seealso": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.9.0",
     "type": "ap"
@@ -375,15 +370,6 @@
     "name": "aim-object",
     "navigation": {
       "prev": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.8.0"
-    }
-  }, 
-  {
-    "urlref": "/doc/implementatiemodel/master/ontwerpdocument/2.9.0",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "5a471aa30ed02a66534876287ae14dcd1454947b",
-    "name": "master-otl",
-    "navigation": {
-      "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.8.0"
     }
   }, 
   {
