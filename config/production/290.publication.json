@@ -601,7 +601,7 @@
   },{
     "urlref": "/doc/implementatiemodel/trajectcontrole/ontwerpdocument/2.9.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "5a471aa30ed02a66534876287ae14dcd1454947b",
+    "branchtag": "30356e4a2981551e26fd547871b91ce8ba0cf388",
     "name": "trajectcontrole",
     "navigation": {
       "prev": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.8.0"
@@ -609,7 +609,7 @@
   },{
     "urlref": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.9.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "30356e4a2981551e26fd547871b91ce8ba0cf388",
+    "branchtag": "5a471aa30ed02a66534876287ae14dcd1454947b",
     "name": "verkeersregelinstallatie",
     "navigation": {
       "prev": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.8.0"
