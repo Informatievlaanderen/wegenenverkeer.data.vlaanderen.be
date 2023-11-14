@@ -159,11 +159,7 @@
     "seealso": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/2.9.0",
     "type": "ap"
   },
-  {
-    "urlref": "/doc/implementatiemodel/trajectcontrole",
-    "seealso": "/doc/implementatiemodel/trajectcontrole/ontwerpdocument/2.9.0",
-    "type": "ap"
-  },
+
   {
     "urlref": "/doc/implementatiemodel/verkeersregelinstallatie",
     "seealso": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.9.0",
@@ -597,14 +593,6 @@
     "name": "draagconstructies",
     "navigation": {
       "prev": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/2.8.0"
-    }
-  },{
-    "urlref": "/doc/implementatiemodel/trajectcontrole/ontwerpdocument/2.9.0",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "5a471aa30ed02a66534876287ae14dcd1454947b",
-    "name": "trajectcontrole",
-    "navigation": {
-      "prev": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.8.0"
     }
   },{
     "urlref": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.9.0",
