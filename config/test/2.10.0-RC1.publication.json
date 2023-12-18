@@ -160,8 +160,8 @@
     "type": "ap"
   },
   {
-    "urlref": "/doc/implementatiemodel/anpr-trajectcontrole",
-    "seealso": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.10.0-RC1",
+    "urlref": "/doc/implementatiemodel/trajectcontrole",
+    "seealso": "/doc/implementatiemodel/trajectcontrole/ontwerpdocument/2.10.0-RC1",
     "type": "ap"
   },
   {
@@ -598,10 +598,10 @@
       "prev": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/2.9.0-RC3"
     }
   },{
-    "urlref": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.10.0-RC1",
+    "urlref": "/doc/implementatiemodel/trajectcontrole/ontwerpdocument/2.10.0-RC1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "61ff16408e511d9d828add996259c8ab9789ac35",
-    "name": "anpr-trajectcontrole",
+    "name": "trajectcontrole",
     "navigation": {
       "prev": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.9.0-RC3"
     }
