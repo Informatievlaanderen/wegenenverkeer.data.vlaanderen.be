@@ -426,7 +426,8 @@
     "name": "vegetatie",
     "navigation": {
       "prev": "/doc/implementatiemodel/vegetatie/ontwerpdocument/2.9.0"
-    }
+    },
+    "dummy": 2
   }, 
   {
     "urlref": "/doc/implementatiemodel/verharding-wegfundering/ontwerpdocument/2.10.0",
