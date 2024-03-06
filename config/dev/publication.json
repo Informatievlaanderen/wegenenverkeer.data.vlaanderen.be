@@ -336,7 +336,7 @@
    {
     "urlref": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "7e8b6e9fd39cb378823a3f43de7c004329f4e94d",
+    "branchtag": "0e31e30b3cb44a7d85b2bb705d580156db46bc5e",
     "name": "implementatieelement",
     "navigation": {
       "prev": ""
@@ -344,7 +344,7 @@
   },{
     "urlref": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "7e8b6e9fd39cb378823a3f43de7c004329f4e94d",
+    "branchtag": "0e31e30b3cb44a7d85b2bb705d580156db46bc5e",
     "name": "onderdeel",
     "navigation": {
       "prev": ""
@@ -353,7 +353,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "7e8b6e9fd39cb378823a3f43de7c004329f4e94d",
+    "branchtag": "0e31e30b3cb44a7d85b2bb705d580156db46bc5e",
     "name": "installatie",
     "navigation": {
       "prev": ""
@@ -371,7 +371,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "7e8b6e9fd39cb378823a3f43de7c004329f4e94d",
+    "branchtag": "0e31e30b3cb44a7d85b2bb705d580156db46bc5e",
     "name": "abstracten",
     "navigation": {
       "prev": ""
@@ -899,7 +899,7 @@
   {
     "urlref": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "7e8b6e9fd39cb378823a3f43de7c004329f4e94d",
+    "branchtag": "0e31e30b3cb44a7d85b2bb705d580156db46bc5e",
     "name": "sluizenstuwen",
     "navigation": {
       "prev": ""
