@@ -332,7 +332,7 @@
     "urlref": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.11.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "bd40b872b982dc0dcb0d809186a32d1157b717a6",
-    "name": "implementatieelement",
+    "name": "wegenenverkeer-implementatieelement",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.10.0"
     }
@@ -340,7 +340,7 @@
     "urlref": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.11.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "bd40b872b982dc0dcb0d809186a32d1157b717a6",
-    "name": "onderdeel",
+    "name": "wegenenverkeer-onderdeel",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.10.0"
     }
@@ -349,7 +349,7 @@
     "urlref": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.11.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "bd40b872b982dc0dcb0d809186a32d1157b717a6",
-    "name": "installatie",
+    "name": "wegenenverkeer-installatie",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.10.0"
     }
@@ -358,7 +358,7 @@
     "urlref": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.11.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "bd40b872b982dc0dcb0d809186a32d1157b717a6",
-    "name": "levenscyclus",
+    "name": "wegenenverkeer-levenscyclus",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.10.0"
     }
@@ -367,7 +367,7 @@
     "urlref": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.11.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "bd40b872b982dc0dcb0d809186a32d1157b717a6",
-    "name": "abstracten",
+    "name": "wegenenverkeer-abstracten",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.10.0"
     }
@@ -376,7 +376,7 @@
     "urlref": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.11.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "bd40b872b982dc0dcb0d809186a32d1157b717a6",
-    "name": "proefenmeting",
+    "name": "wegenenverkeer-proefenmeting",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.10.0"
     }
