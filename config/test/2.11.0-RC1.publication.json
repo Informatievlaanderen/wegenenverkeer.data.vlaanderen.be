@@ -1,0 +1,786 @@
+[ 
+	
+   {
+    "urlref": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "wegenenverkeer-implementatieelement",
+    "navigation": {
+      "prev": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "wegenenverkeer-onderdeel",
+    "navigation": {
+      "prev": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.12.0-RC2"
+    },  
+	"type": "raw",
+	"directory": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "wegenenverkeer-installatie",
+    "navigation": {
+      "prev": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw",
+	"directory": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "wegenenverkeer-levenscyclus",
+    "navigation": {
+      "prev": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "wegenenverkeer-abstracten",
+    "navigation": {
+      "prev": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "wegenenverkeer-proefenmeting",
+    "navigation": {
+      "prev": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "aim-object",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/master/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "master-otl",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/master/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/master/ontwerpdocument/2.11.0-RC1" ,
+    "dummy": 2
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "lijnvormige-elementen",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/riolering/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "riolering",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/riolering/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/riolering/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/riolering/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "signalisatie",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/vegetatie/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "vegetatie",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/vegetatie/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/vegetatie/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/vegetatie/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/verharding-wegfundering/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "verharding-wegfundering",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/verharding-wegfundering/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/verharding-wegfundering/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/verharding-wegfundering/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/relaties/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "relaties",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/relaties/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/relaties/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/relaties/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/union-datatypes/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "union-datatypes",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/union-datatypes/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/union-datatypes/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/union-datatypes/ontwerpdocument/2.11.0-RC1" 
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/eenvoudige-datatypes/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "eenvoudige-datatypes",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/eenvoudige-datatypes/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/eenvoudige-datatypes/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/eenvoudige-datatypes/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/proeven-metingen/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "proeven-metingen",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/proeven-metingen/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/proeven-metingen/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/proeven-metingen/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/complexe-datatypes/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "complexe-datatypes",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/complexe-datatypes/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/complexe-datatypes/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/complexe-datatypes/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/optisch-transport-netwerk/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "optisch-transport-netwerk",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/optisch-transport-netwerk/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/optisch-transport-netwerk/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/optisch-transport-netwerk/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/ecologische-maatregelen/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "ecologische-maatregelen",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/ecologische-maatregelen/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/ecologische-maatregelen/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/ecologische-maatregelen/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/kasten-cabines-behuizing/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "kasten-cabines-behuizing",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/kasten-cabines-behuizing/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/kasten-cabines-behuizing/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/kasten-cabines-behuizing/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/elektrische-componenten/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "elektrische-componenten",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/elektrische-componenten/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/elektrische-componenten/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/elektrische-componenten/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/dynamische-borden/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "dynamische-borden",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/dynamische-borden/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/dynamische-borden/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/dynamische-borden/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/slagboom-doorsteek/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "slagboom-doorsteek",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/slagboom-doorsteek/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/slagboom-doorsteek/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/slagboom-doorsteek/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/luidspreker-intercom/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "luidspreker-intercom",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/luidspreker-intercom/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/luidspreker-intercom/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/luidspreker-intercom/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/camerainstallatie/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "camerainstallatie",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/camerainstallatie/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/camerainstallatie/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/camerainstallatie/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/meten-in-vlaanderen/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "meten-in-vlaanderen",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/meten-in-vlaanderen/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/meten-in-vlaanderen/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/meten-in-vlaanderen/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/tunnelevacuatie/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "tunnelevacuatie",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/tunnelevacuatie/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/tunnelevacuatie/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/tunnelevacuatie/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/luchtkwaliteit/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "luchtkwaliteit",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/luchtkwaliteit/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/luchtkwaliteit/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/luchtkwaliteit/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/brandleiding/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "brandleiding",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/brandleiding/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/brandleiding/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/brandleiding/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/ventilatie/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "ventilatie",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/ventilatie/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/ventilatie/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/ventilatie/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/hulpposten/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "hulpposten",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/hulpposten/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/hulpposten/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/hulpposten/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "draagconstructies",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "anpr-trajectcontrole",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/anpr-trajectcontrole/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "verkeersregelinstallatie",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/zone-30/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "zone-30",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/zone-30/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/zone-30/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/zone-30/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/software-hardware/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "software-hardware",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/software-hardware/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/software-hardware/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/software-hardware/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/inbreuken-zwaar-vervoer/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "inbreuken-zwaar-vervoer",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/inbreuken-zwaar-vervoer/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/inbreuken-zwaar-vervoer/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/inbreuken-zwaar-vervoer/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/verlichtingsinstallatie/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "verlichtingsinstallatie",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/verlichtingsinstallatie/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/verlichtingsinstallatie/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/verlichtingsinstallatie/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/fietstelinstallatie/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "fietstelinstallatie",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/fietstelinstallatie/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/fietstelinstallatie/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/fietstelinstallatie/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "ipnetwerk",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/hoppinpunten/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "hoppinpunten",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/hoppinpunten/ontwerpdocument/2.10.0-RC1",
+    "next": "/doc/implementatiemodel/hoppinpunten/ontwerpdocument/2.12.0-RC2"
+    },  
+    "type": "raw", 
+   "directory": "/doc/implementatiemodel/hoppinpunten/ontwerpdocument/2.11.0-RC1" 
+  },
+  {
+    "urlref": "/doc/implementatiemodel/kabelsenleidingen/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "kabelsenleidingen",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/kabelsenleidingen/ontwerpdocument/2.10.0-RC1",
+      "next": "/doc/implementatiemodel/kabelsenleidingen/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/kabelsenleidingen/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "snelheidsroodlichtcamera",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.10.0-RC1",
+      "next": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "punctueleverlichting",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.10.0-RC1",
+      "next": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/aarding/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "aarding",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/aarding/ontwerpdocument/2.10.0-RC1",
+      "next": "/doc/implementatiemodel/aarding/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/aarding/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/akela-failover/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "akela-failover",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/akela-failover/ontwerpdocument/2.10.0-RC1",
+      "next": "/doc/implementatiemodel/akela-failover/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/akela-failover/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/elektromechanische-afbakening/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "elektromechanische-afbakening",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/elektromechanische-afbakening/ontwerpdocument/2.10.0-RC1",
+      "next": "/doc/implementatiemodel/elektromechanische-afbakening/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/elektromechanische-afbakening/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/aswegersite/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "aswegersite",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/aswegersite/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/aswegersite/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/biflash/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "biflash",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/biflash/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/biflash/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/meteo/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "meteo",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/meteo/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/meteo/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/brug/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "brug",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/brug/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/brug/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/constructie-element/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "constructie-element",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/constructie-element/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/constructie-element/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/radioheruitzending/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "radioheruitzending",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/radioheruitzending/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/radioheruitzending/ontwerpdocument/2.11.0-RC1"
+  },
+   {
+    "urlref": "/doc/implementatiemodel/grondwerken/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "grondwerken",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/grondwerken/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/grondwerken/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/zoutbijlaadplaats/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "zoutbijlaadplaats",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/zoutbijlaadplaats/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/zoutbijlaadplaats/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/ups/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "ups",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/ups/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/ups/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/wilddetectiesysteem/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "wilddetectiesysteem",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/wilddetectiesysteem/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/wilddetectiesysteem/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/pompstation/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "pompstation",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/pompstation/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/pompstation/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/pompgroep/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "pompgroep",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/pompgroep/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/pompgroep/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/fundering/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "fundering",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/fundering/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/fundering/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/grondkerende-constructies/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "grondkerende-constructies",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/grondkerende-constructies/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/grondkerende-constructies/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/koker/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "koker",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/koker/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/koker/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/sites/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "sites",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/sites/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/sites/ontwerpdocument/2.11.0-RC1"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/waterlopen/ontwerpdocument/2.11.0-RC1",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-wegenenverkeer-generated",
+    "branchtag": "v2.11.0-RC1",
+    "name": "waterlopen",
+    "navigation": {
+      "prev": "",
+      "next": "/doc/implementatiemodel/waterlopen/ontwerpdocument/2.12.0-RC2"
+    },
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/waterlopen/ontwerpdocument/2.11.0-RC1"
+  }
+ 
+
+]
