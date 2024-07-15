@@ -11,7 +11,8 @@
     "branchtag": "bc93c88589d9510f4671fdfa3c44a584b81e139e",
     "name": "master-otl",
     "navigation": {
-      "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.11.0"
+      "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.11.0",
+    "dummy": 1
     }
   }
 ]
