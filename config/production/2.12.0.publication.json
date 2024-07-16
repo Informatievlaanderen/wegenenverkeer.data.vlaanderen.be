@@ -768,7 +768,8 @@
     "name": "brug",
     "navigation": {
       "prev": "/doc/implementatiemodel/brug/ontwerpdocument/2.11.0"
-    }
+    },
+    "dummy": 1
   },
   {
     "urlref": "/doc/implementatiemodel/constructie-element/ontwerpdocument/2.12.0",
