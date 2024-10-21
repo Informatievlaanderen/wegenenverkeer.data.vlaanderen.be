@@ -358,7 +358,7 @@ jobs:
             mkdir -p /tmp/workspace/target
       - run:
           name: Convert -SHACL.jsonld file to -SHACL.ttl files
-          no_output_timeout: 30m
+          no_output_timeout: 45m
           command: |
             find /tmp/workspace/target -name \*-SHACL.jsonld -type f | $PWD/scripts/convert_to_any.sh turtle
       - run:
