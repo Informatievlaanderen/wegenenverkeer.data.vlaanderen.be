@@ -420,7 +420,8 @@
     "branchtag": "9c9841ff97ebca19ca51c5bfe257463da08a1c5f",
     "name": "signalisatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.12.0"
+      "prev": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.12.0",
+    "dummy": 1
     }
   }, 
   {
