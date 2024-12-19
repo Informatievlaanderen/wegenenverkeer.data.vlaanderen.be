@@ -914,11 +914,11 @@
   {
     "urlref": "/doc/implementatiemodel/vlag/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f5c2bd44b7710e3d7c5a93926727c55f0edaf9f9",
     "name": "vlag",
     "navigation": {
       "prev": ""
     },
-    "dummy": 0
+    "dummy": 1
   }
 ]
