@@ -2,14 +2,14 @@
 
   {
     "urlref": "/doc/implementatiemodel/master",
-    "seealso": "/doc/implementatiemodel/master/ontwerpdocument/2.14.0-RC1",
+    "seealso": "/doc/implementatiemodel/master/ontwerpdocument/2.14.0-RC2",
     "type": "ap"  
   },
   
   {
-    "urlref": "/doc/implementatiemodel/master/ontwerpdocument/2.14.0-RC1",
+    "urlref": "/doc/implementatiemodel/master/ontwerpdocument/2.14.0-RC2",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "617e602cdd9ccddeeb13d4c33479f6b6236dcbad",
+    "branchtag": "67d1ae76e949175dfa63ab15719d6e96bc5f3c1b",
     "name": "master-otl",
     "navigation": {
       "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.13.0-RC2"
