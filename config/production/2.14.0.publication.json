@@ -910,14 +910,15 @@
     "name": "sluizenstuwen",
     "navigation": {
       "prev": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/2.13.0"
-    },
+    }
+	},
   {
     "urlref": "/doc/implementatiemodel/hoogtebegrenzer/ontwerpdocument/2.14.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "2981feab9e1345c2eeed4b7cefe6e9b680a9fbf6",
     "name": "hoogtebegrenzer",
     "navigation": {
-      "prev": ""
+      "prev": "/doc/implementatiemodel/hoogtebegrenzer/ontwerpdocument/2.13.0"
     }
 	}
-] 
+]
