@@ -358,7 +358,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "installatie",
     "navigation": {
       "prev": ""
@@ -367,7 +367,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "levenscyclus",
     "navigation": {
       "prev": ""
@@ -376,7 +376,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "abstracten",
     "navigation": {
       "prev": ""
@@ -385,7 +385,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "proefenmeting",
     "navigation": {
       "prev": ""
@@ -394,7 +394,7 @@
   {
     "urlref": "/doc/implementatiemodel/aim-object/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "aim-object",
     "navigation": {
       "prev": ""
@@ -422,7 +422,7 @@
   {
     "urlref": "/doc/implementatiemodel/signalisatie/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "signalisatie",
     "navigation": {
       "prev": ""
@@ -449,7 +449,7 @@
   {
     "urlref": "/doc/implementatiemodel/relaties/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "relaties",
     "navigation": {
       "prev": ""
@@ -458,7 +458,7 @@
   {
     "urlref": "/doc/implementatiemodel/union-datatypes/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "union-datatypes",
     "navigation": {
       "prev": ""
@@ -466,7 +466,7 @@
   }, {
     "urlref": "/doc/implementatiemodel/eenvoudige-datatypes/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "eenvoudige-datatypes",
     "navigation": {
       "prev": ""
@@ -474,7 +474,7 @@
   },{
     "urlref": "/doc/implementatiemodel/proeven-metingen/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "proeven-metingen",
     "navigation": {
       "prev": ""
@@ -482,7 +482,7 @@
   },{
     "urlref": "/doc/implementatiemodel/complexe-datatypes/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "0e5bbb26160c48c7229c131acf4c3262f64887ae",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "complexe-datatypes",
     "navigation": {
       "prev": ""
@@ -914,7 +914,7 @@
   {
     "urlref": "/doc/implementatiemodel/vlag/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "f5c2bd44b7710e3d7c5a93926727c55f0edaf9f9",
+    "branchtag": "f3aab4855a5747acc7f257c17c46682f551fc5bc",
     "name": "vlag",
     "navigation": {
       "prev": ""
