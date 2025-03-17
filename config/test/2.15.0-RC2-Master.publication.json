@@ -9,11 +9,11 @@
   {
     "urlref": "/doc/implementatiemodel/master/ontwerpdocument/2.15.0-RC2",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "c9f93209e098ed84ae99eb01dace76113c6da1cf",
+    "branchtag": "023d8732df622b3834d8b6adc78b56b2f82f1f38",
     "name": "master-otl",
     "navigation": {
       "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.14.0-RC2"
     },
-    "dummy": 0
+    "dummy": 1
   }
 ]
