@@ -1,0 +1,18 @@
+[
+
+  {
+    "urlref": "/doc/implementatiemodel/master",
+    "seealso": "/doc/implementatiemodel/master/ontwerpdocument/2.15.0",
+    "type": "ap"  
+  },
+  {
+    "urlref": "/doc/implementatiemodel/master/ontwerpdocument/2.15.0",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7fac232d98d7eb03b92d98017ed6fe60a548ff0e",
+    "name": "master-otl",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/master/ontwerpdocument/2.14.0",
+    "dummy": 0
+    }
+  }
+]
