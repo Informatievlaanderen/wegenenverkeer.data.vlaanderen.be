@@ -331,7 +331,7 @@
   },
   {
     "urlref": "/doc/implementatiemodel/vlag",
-    "seealso": "/doc/implementatiemodel/vlag/ontwerpdocument/DEV19",
+    "seealso": "/doc/implementatiemodel/vlag/ontwerpdocument/VLAG19",
     "type": "ap"
   },
 {
@@ -921,7 +921,7 @@
     "dummy": 0
   },
   {
-    "urlref": "/doc/implementatiemodel/vlag/ontwerpdocument/DEV19",
+    "urlref": "/doc/implementatiemodel/vlag/ontwerpdocument/VLAG19",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "d423c929ccf1929da9e6da0fa6b9c6951e029617",
     "name": "vlag",
