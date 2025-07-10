@@ -1,0 +1,129 @@
+[
+  { 
+    "urlref": "/ns/implementatieelement-vlag",
+    "seealso": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/VLAG/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/onderdeel-vlag",
+    "seealso": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/VLAG/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/installatie-vlag",
+    "seealso": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/VLAG/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/abstracten-vlag",
+    "seealso": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/VLAG/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/relaties-vlag",
+    "seealso": "/doc/implementatiemodel/relaties/ontwerpdocument/VLAG/DEV",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/union-datatypes-vlag",
+    "seealso": "/doc/implementatiemodel/union-datatypes/ontwerpdocument/VLAG/DEV",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/eenvoudige-datatypes-vlag",
+    "seealso": "/doc/implementatiemodel/eenvoudige-datatypes/ontwerpdocument/VLAG/DEV",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/complexe-datatypes-vlag",
+    "seealso": "/doc/implementatiemodel/complexe-datatypes/ontwerpdocument/VLAG/DEV",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/vlag",
+    "seealso": "/doc/implementatiemodel/vlag/ontwerpdocument/VLAG/VLAG22",
+    "type": "ap"
+  },
+  
+  
+  
+   {
+    "urlref": "/doc/vocabularium/wegenenverkeer/implementatieelement-vlag/ontwerpdocument/VLAG/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a0b027e443aa08b307cd6f4ba733a16db6627bdf",
+    "name": "implementatieelement-vlag",
+    "navigation": {
+      "prev": ""
+    }
+  },{
+    "urlref": "/doc/vocabularium/wegenenverkeer/onderdeel-vlag/ontwerpdocument/VLAG/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a0b027e443aa08b307cd6f4ba733a16db6627bdf",
+    "name": "onderdee-vlagl",
+    "navigation": {
+      "prev": ""
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/installatie-vlag/ontwerpdocument/VLAG/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a0b027e443aa08b307cd6f4ba733a16db6627bdf",
+    "name": "installatie-vlag",
+    "navigation": {
+      "prev": ""
+    }
+  }, 
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/abstracten-vlag/ontwerpdocument/VLAG/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a0b027e443aa08b307cd6f4ba733a16db6627bdf",
+    "name": "abstracten-vlag",
+    "navigation": {
+      "prev": ""
+    }
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/relaties-vlag/ontwerpdocument/VLAG/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a0b027e443aa08b307cd6f4ba733a16db6627bdf",
+    "name": "relaties-vlag",
+    "navigation": {
+      "prev": ""
+    }
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/union-datatypes-vlag/ontwerpdocument/VLAG/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a0b027e443aa08b307cd6f4ba733a16db6627bdf",
+    "name": "union-datatypes-vlag",
+    "navigation": {
+      "prev": ""
+    }
+  }, {
+    "urlref": "/doc/implementatiemodel/eenvoudige-datatypes-vlag/ontwerpdocument/VLAG/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a0b027e443aa08b307cd6f4ba733a16db6627bdf",
+    "name": "eenvoudige-datatypes-vlag",
+    "navigation": {
+      "prev": ""
+    }
+  },{
+    "urlref": "/doc/implementatiemodel/complexe-datatypes-vlag/ontwerpdocument/VLAG/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a0b027e443aa08b307cd6f4ba733a16db6627bdf",
+    "name": "complexe-datatypes-vlag",
+    "navigation": {
+      "prev": ""
+    }
+  },
+  {
+    "urlref": "/doc/implementatiemodel/vlag/ontwerpdocument/VLAG/VLAG22",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a0b027e443aa08b307cd6f4ba733a16db6627bdf",
+    "name": "vlag",
+    "navigation": {
+      "prev": ""
+    },
+    "dummy": 1
+  }
+]
