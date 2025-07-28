@@ -35,7 +35,7 @@
    {
     "urlref": "/doc/vocabularium/wegenenverkeer/implementatieelement-vlag/ontwerpdocument/VLAG/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a3639de4eef31c8338fa07c416ee95f31cbe7a46",
+    "branchtag": "23401071fbe3ddc05f3246d55fa89fa22dda8d9e",
     "name": "implementatieelement-vlag",
     "navigation": {
       "prev": ""
@@ -43,7 +43,7 @@
   },{
     "urlref": "/doc/vocabularium/wegenenverkeer/onderdeel-vlag/ontwerpdocument/VLAG/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a3639de4eef31c8338fa07c416ee95f31cbe7a46",
+    "branchtag": "23401071fbe3ddc05f3246d55fa89fa22dda8d9e",
     "name": "onderdeel-vlag",
     "navigation": {
       "prev": ""
@@ -52,7 +52,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/installatie-vlag/ontwerpdocument/VLAG/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a3639de4eef31c8338fa07c416ee95f31cbe7a46",
+    "branchtag": "23401071fbe3ddc05f3246d55fa89fa22dda8d9e",
     "name": "installatie-vlag",
     "navigation": {
       "prev": ""
@@ -61,7 +61,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/abstracten-vlag/ontwerpdocument/VLAG/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a3639de4eef31c8338fa07c416ee95f31cbe7a46",
+    "branchtag": "23401071fbe3ddc05f3246d55fa89fa22dda8d9e",
     "name": "abstracten-vlag",
     "navigation": {
       "prev": ""
@@ -70,7 +70,7 @@
   {
     "urlref": "/doc/implementatiemodel/relaties-vlag/ontwerpdocument/VLAG/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a3639de4eef31c8338fa07c416ee95f31cbe7a46",
+    "branchtag": "23401071fbe3ddc05f3246d55fa89fa22dda8d9e",
     "name": "relaties-vlag",
     "navigation": {
       "prev": ""
@@ -80,7 +80,7 @@
   {
     "urlref": "/doc/implementatiemodel/vlag/ontwerpdocument/VLAG/VLAG22",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "a3639de4eef31c8338fa07c416ee95f31cbe7a46",
+    "branchtag": "23401071fbe3ddc05f3246d55fa89fa22dda8d9e",
     "name": "vlag",
     "navigation": {
       "prev": ""
