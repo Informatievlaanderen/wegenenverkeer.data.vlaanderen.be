@@ -1,27 +1,27 @@
 [
   { 
     "urlref": "/ns/implementatieelement-vlag",
-    "seealso": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/VLAG/DEV",
+    "seealso": "/doc/vocabularium/wegenenverkeer/implementatieelement-vlag/ontwerpdocument/VLAG/DEV",
     "type": "voc"
   },
   {
     "urlref": "/ns/onderdeel-vlag",
-    "seealso": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/VLAG/DEV",
+    "seealso": "/doc/vocabularium/wegenenverkeer/onderdeel-vlag/ontwerpdocument/VLAG/DEV",
     "type": "voc"
   },
   {
     "urlref": "/ns/installatie-vlag",
-    "seealso": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/VLAG/DEV",
+    "seealso": "/doc/vocabularium/wegenenverkeer/installatie-vlag/ontwerpdocument/VLAG/DEV",
     "type": "voc"
   },
   {
     "urlref": "/ns/abstracten-vlag",
-    "seealso": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/VLAG/DEV",
+    "seealso": "/doc/vocabularium/wegenenverkeer/abstracten-vlag/ontwerpdocument/VLAG/DEV",
     "type": "voc"
   },
   {
     "urlref": "/doc/implementatiemodel/relaties-vlag",
-    "seealso": "/doc/implementatiemodel/relaties/ontwerpdocument/VLAG/DEV",
+    "seealso": "/doc/implementatiemodel/relaties-vlag/ontwerpdocument/VLAG/DEV",
     "type": "ap"
   },
   {
