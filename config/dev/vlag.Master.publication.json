@@ -1,0 +1,19 @@
+[
+
+  {
+    "urlref": "/doc/implementatiemodel/master-vlag",
+    "seealso": "/doc/implementatiemodel/master-vlag/ontwerpdocument/VLAG22",
+    "type": "ap"
+  },
+  
+  {
+    "urlref": "/doc/implementatiemodel/master-vlag/ontwerpdocument/VLAG22",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "a3639de4eef31c8338fa07c416ee95f31cbe7a46",
+    "name": "master-otl",
+    "navigation": {
+      "prev": ""
+    },
+    "dummy": 1
+  }
+]
