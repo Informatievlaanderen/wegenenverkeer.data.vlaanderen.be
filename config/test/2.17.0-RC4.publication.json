@@ -963,7 +963,8 @@
     "name": "geleidingsmechanisme",
     "navigation": {
       "prev": "/doc/implementatiemodel/geleidingsmechanisme/ontwerpdocument/2.16.0-RC1"
-    },
+    }
+	},
   {
     "urlref": "/doc/implementatiemodel/afwateringkunstwerken/ontwerpdocument/2.17.0-RC4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
