@@ -341,7 +341,7 @@
   },
   {
     "urlref": "/doc/implementatiemodel/signalisatievlaanderen",
-    "seealso": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/SV1",
+    "seealso": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/SV4",
     "type": "ap"
   },
   
@@ -941,9 +941,9 @@
     "dummy": 1
   },
   {
-    "urlref": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/SV1",
+    "urlref": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/SV4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "72a020ed3944914c74847af0f6578bb3b0f3a6be",
+    "branchtag": "87215ffc3a658a47b7e1b311f42cee77ed32bbde",
     "name": "signalisatievlaanderen",
     "navigation": {
       "prev": ""
