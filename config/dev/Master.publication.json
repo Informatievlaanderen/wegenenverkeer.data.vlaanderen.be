@@ -2,18 +2,18 @@
 
   {
     "urlref": "/doc/implementatiemodel/master",
-    "seealso": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/SV1",
+    "seealso": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/DEV",
     "type": "ap"
   },
   
   {
-    "urlref": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/SV1",
+    "urlref": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "72a020ed3944914c74847af0f6578bb3b0f3a6be",
+    "branchtag": "605fbdda76bd7e3ec767f333f3dabffae204501f",
     "name": "master-otl",
     "navigation": {
       "prev": ""
     },
-    "dummy": 1
+    "dummy": 0
   }
 ]
