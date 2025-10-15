@@ -943,11 +943,11 @@
   {
     "urlref": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/SV5",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "9bef02293453acdd298654b5dfb2f41a8ee7e354",
+    "branchtag": "605fbdda76bd7e3ec767f333f3dabffae204501f",
     "name": "signalisatievlaanderen",
     "navigation": {
       "prev": ""
     },
-    "dummy": 2
+    "dummy": 0
   }
 ]
