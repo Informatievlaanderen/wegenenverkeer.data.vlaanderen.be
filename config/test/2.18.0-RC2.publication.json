@@ -973,15 +973,16 @@
   {
     "urlref": "/doc/implementatiemodel/afwatering-kunstwerken/ontwerpdocument/2.18.0-RC2",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "02a9251d7dd0c141b010688795d9ae22f8bc31cf",
+    "branchtag": "12ae414f57e9144f63aa5fc6d5dbef143de296ca",
     "name": "afwatering-kunstwerken",
     "navigation": {
       "prev": "/doc/implementatiemodel/afwatering-kunstwerken/ontwerpdocument/2.17.0-RC4"
-    },
+    }
+	},
   {
     "urlref": "/doc/implementatiemodel/zonnepanelenpark/ontwerpdocument/2.18.0-RC2",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "02a9251d7dd0c141b010688795d9ae22f8bc31cf",
+    "branchtag": "12ae414f57e9144f63aa5fc6d5dbef143de296ca",
     "name": "zonnepanelenpark",
     "navigation": {
       "prev": ""
