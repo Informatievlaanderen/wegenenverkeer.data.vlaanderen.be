@@ -195,8 +195,8 @@
     "type": "ap"
   }, 
   {
-    "urlref": "/doc/implementatiemodel/ipnetwerk",
-    "seealso": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.17.0",
+    "urlref": "/doc/implementatiemodel/ip-netwerk",
+    "seealso": "/doc/implementatiemodel/ip-netwerk/ontwerpdocument/2.17.0",
     "type": "ap"
   },
    {
@@ -205,8 +205,8 @@
     "type": "ap"
   },
   {
-    "urlref": "/doc/implementatiemodel/snelheidsroodlichtcamera",
-    "seealso": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.17.0",
+    "urlref": "/doc/implementatiemodel/snelheids-roodlichtcamera",
+    "seealso": "/doc/implementatiemodel/snelheids-roodlichtcamera/ontwerpdocument/2.17.0",
     "type": "ap"
   },
   {
@@ -215,8 +215,8 @@
     "type": "ap"
   },
   {
-    "urlref": "/doc/implementatiemodel/punctueleverlichting",
-    "seealso": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.17.0",
+    "urlref": "/doc/implementatiemodel/punctuele-verlichting",
+    "seealso": "/doc/implementatiemodel/punctuele-verlichting/ontwerpdocument/2.17.0",
     "type": "ap"
   },
   {
@@ -325,8 +325,8 @@
     "type": "ap"
   },
   {
-    "urlref": "/doc/implementatiemodel/sluizenstuwen",
-    "seealso": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/2.17.0",
+    "urlref": "/doc/implementatiemodel/sluizen-stuwen",
+    "seealso": "/doc/implementatiemodel/sluizen-stuwen/ontwerpdocument/2.17.0",
     "type": "ap"
   },
   {
@@ -687,12 +687,12 @@
   },
   
   {
-    "urlref": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.17.0",
+    "urlref": "/doc/implementatiemodel/ip-netwerk/ontwerpdocument/2.17.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "0f9cebcd62312ab17773472a1bc58b4f161f9184",
-    "name": "ipnetwerk",
+    "name": "ip-netwerk",
     "navigation": {
-      "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.16.0"
+      "prev": "/doc/implementatiemodel/ip-netwerk/ontwerpdocument/2.16.0"
     }
   },
   {
@@ -714,21 +714,21 @@
     }
   },
   {
-    "urlref": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.17.0",
+    "urlref": "/doc/implementatiemodel/snelheids-roodlichtcamera/ontwerpdocument/2.17.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "0f9cebcd62312ab17773472a1bc58b4f161f9184",
-    "name": "snelheidsroodlichtcamera",
+    "name": "snelheids-roodlichtcamera",
     "navigation": {
-      "prev": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/2.16.0"
+      "prev": "/doc/implementatiemodel/snelheids-roodlichtcamera/ontwerpdocument/2.16.0"
     }
   },
   {
-    "urlref": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.17.0",
+    "urlref": "/doc/implementatiemodel/punctuele-verlichting/ontwerpdocument/2.17.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "0f9cebcd62312ab17773472a1bc58b4f161f9184",
-    "name": "punctueleverlichting",
+    "name": "punctuele-verlichting",
     "navigation": {
-      "prev": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.16.0"
+      "prev": "/doc/implementatiemodel/punctuele-verlichting/ontwerpdocument/2.16.0"
     }
   },
   {
@@ -923,12 +923,12 @@
     }
   },
   {
-    "urlref": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/2.17.0",
+    "urlref": "/doc/implementatiemodel/sluizen-stuwen/ontwerpdocument/2.17.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "0f9cebcd62312ab17773472a1bc58b4f161f9184",
-    "name": "sluizenstuwen",
+    "name": "sluizen-stuwen",
     "navigation": {
-      "prev": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/2.16.0"
+      "prev": "/doc/implementatiemodel/sluizen-stuwen/ontwerpdocument/2.16.0"
     }
 	},
   {
