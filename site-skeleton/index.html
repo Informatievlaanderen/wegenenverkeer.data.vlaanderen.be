@@ -66,23 +66,117 @@
 			<section class="vl-region">
 				<div class="vl-layout" id="introductie">
 					<div class="vl-grid">
-						<div class="vl-col--8-12 col--12-12--s">
+						<div class="vl-col--8-12 vl-col--12-12--s">
 						
-					<!--	<P STYLE="border: solid #ff0000;">Dit is een ontwikkel- en testomgeving. <br> Deze omgeving wordt momenteel gebruikt om het implementatiemodel <strong>Sluizen en stuwen</strong> te illustreren als een ontwerpstandaard. -->
+						<p>
+							<span class="vl-u-mark  vl-u-mark--warning">Dit is een ontwikkel- en testomgeving. <br> Deze omgeving wordt momenteel gebruikt om een extractie uit de implementatiemodellen m.b.t. het VLAG project te illustreren. 
+							<br>
+								Dit impliceert dat de standaard die in dit document beschreven wordt in ontwikkeling is. Bijgevolg kan het document op elk moment aangepast, vervangen of ingetrokken worden.
+							</span>
+						</p>
 
-						<P STYLE="border: solid #ff0000;">Dit is een ontwikkel- en testomgeving. <br> Deze omgeving wordt momenteel gebruikt om een extractie uit de implementatiemodellen m.b.t. het <strong>VLAG project</strong> te illustreren. 
-					<br>
-						Dit impliceert dat de standaard die in dit document beschreven wordt in ontwikkeling is. Bijgevolg kan het document op elk moment aangepast, vervangen of ingetrokken worden.
-						</P>
 						
 						<br>
-							<div class="typography introduction">
+							<p class="vl-introduction">
 								Met het programma Open Standaarden voor Linkende Organisaties (OSLO) zet de Vlaamse overheid in op een éénduidige standaard voor de uitwisseling van informatie. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Ontdek hier de beschikbare vocabularia en implementatiemodellen, alsook codelijsten.
-							</div>
+							</p>
 							<br>
 						</div>
+						
+						<div class="vl-col--3-12 col--12-12--s vl-col--4-12--m" id="sideNav">
+								<nav class="vl-side-navigation js-vl-side-navigation js-vl-sticky js-vl-scrollspy" data-vl-side-navigation data-vl-side-navigation-scrollable data-vl-scrollspy data-vl-scrollspy-mobile=
+									"Componenten" data-vl-sticky data-vl-sticky-offset-top="25" aria-label="inhoudsopgave">
+								  <h5 class="vl-side-navigation__title">Op deze pagina</h5>
+								  <div class="vl-side-navigation__content">
+									<ul class="vl-side-navigation__group">
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="#Implementatiemodellen" data-vl-child="implementatiemodellen">
+										  Implementatiemodellen
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>						
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="#Vocabularia" data-vl-child="vocabularia">
+										  Vocabularia
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/tree/dev/codelijsten" data-vl-child="codelijsten">
+										  Codelijsten
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>								
+									  </li>
+									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="#veelgestelde-vragen" data-vl-child="veelgestelde-vragen">
+										  Veelgestelde vragen
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>								
+									  </li>
+									</ul>
+									
+									 <h5 class="vl-side-navigation__title">Technische documentatie</h5>
+									<ul class="vl-side-navigation__group">
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="#/doc/implementatiemodel/master/html/ReleaseNotes.html" data-vl-child="release-notes">
+										  Release notes
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>						
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL.db" data-vl-child="sqlite-download">
+										  SQLite download
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-SQLite.pdf" data-vl-child="sqlite-datamodel">
+										  SQLite datamodel
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>								
+									  </li>
+									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://opendata.apps.mow.vlaanderen.be/otltool" data-vl-child="sqlite-subset-aanmaken">
+										  SQLite subset aanmaken
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>								
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-TechnischeDocumentatie.pdf" data-vl-child="otl-concepten">
+										  OTL concepten
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>								
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/GeometrieArtefact.zip" data-vl-child="geometrie-artefact">
+										  Geometrie artefact
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>								
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/DownloadPaginaVersies.html" data-vl-child="vorige-otl-versies">
+										  Vorige OTL versies
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>								
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/master/html/DownloadPaginaPMVersies.html" data-vl-child="postenmapping-artefact">
+										  Postenmapping artefact
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>								
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://github.com/davidvlaminck/otlmow-gui/wiki/Installation" data-vl-child="otl-wizard-2">
+										  OTL Wizard 2
+										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										</a>								
+									  </li>
+									</ul>						
+								  </div>												  							  
+								</nav>
+						</div>
 
-
+<!--
 						<div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
 							<nav class="side-navigation js-sticky" id="sideNav">
 								<div class="side-navigation__content">
@@ -110,11 +204,9 @@
 										<div class="side-navigation__title">
 											Technische documentatie
 										</div>
-
-
 										<ul>
 										
-										<!--
+									
 										
 											<li class="side-navigation__item">
 												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/ReleaseNotes.zip" target="_blank">Release notes</a>
@@ -123,12 +215,12 @@
 											<li class="side-navigation__item">
 												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL.db" target="_blank">SQLite download</a>
 											</li>
-											-->
+									
 											<li class="side-navigation__item">
 												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL-SQLite.pdf" target="_blank">SQLite datamodel</a>
 											</li>
 											
-											<!--
+											
 											<li class="side-navigation__item">
 												<a class="link--icon--caret link--icon--block" href="https://opendata.apps.mow.vlaanderen.be/otltool" target="_blank">SQLite subset aanmaken</a>
 											</li
@@ -137,12 +229,12 @@
 											<li class="side-navigation__item">
 												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL.zip" target="_blank">XMI download</a>
 											</li>
-											-->
+									
 											<li class="side-navigation__item">
 												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL-TechnischeDocumentatie.pdf" target="_blank">OTL concepten</a>
 											</li>
 											
-											<!--
+						
 											<li class="side-navigation__item">
 												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/GeometrieArtefact.zip" target="_blank">Geometrie artefact</a>
 											</li>
@@ -150,14 +242,17 @@
 											<li class="side-navigation__item">
 												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/DownloadPaginaVersies.html" target="_blank">Vorige OTL versies</a>
 											</li>
-											-->
+										
 										</ul>
 									</div>
 
 								</div>
 							</nav>
+							
 						</div>
+					-->
 					</div>
+					
 				</div>
 			</section>
 
