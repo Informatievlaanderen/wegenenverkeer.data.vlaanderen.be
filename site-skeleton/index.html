@@ -89,7 +89,7 @@
 									"Componenten" data-vl-sticky data-vl-sticky-offset-top="25" aria-label="inhoudsopgave">
 								  <h5 class="vl-side-navigation__title">Op deze pagina</h5>
 								  <div class="vl-side-navigation__content">
-									<ul class="vl-side-navigation__group">
+									<ul class="vl-side-navigation__group" style = "font-size: 1.4rem">
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
 										<a class="vl-side-navigation__toggle" href="#Implementatiemodellen" data-vl-child="implementatiemodellen">
 										  Implementatiemodellen
@@ -117,9 +117,9 @@
 									</ul>
 									
 									 <h5 class="vl-side-navigation__title">Technische documentatie</h5>
-									<ul class="vl-side-navigation__group">
+									<ul class="vl-side-navigation__group" style = "font-size: 1.4rem">
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-										<a class="vl-side-navigation__toggle" href="#/doc/implementatiemodel/master/html/ReleaseNotes.html" data-vl-child="release-notes">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" data-vl-child="release-notes">
 										  Release notes
 										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
 										</a>						
@@ -194,13 +194,25 @@
 							<br>
 							
 							<p>Het implementatiemodel (OTL) wegenenverkeer bouwt voort op een reeks bestaanden standaarden waaronder:<br>
-								<ul> 
-									<li><a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/basiskaart-vlaanderen-grb">Grootschalig Referentiebestand (GRB)</a></li>
-									<li><a href="https://wegenenverkeer.be/zakelijk/documenten?search=legendeboek">MOW-AWV Legendeboek</a></li>
-									<li><a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/mobiliteitsinfrastructuur-in-vlaanderen/standaardbestekken/standaardbestek-250">Standaardbestek 250</a></li>
-									<li><a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/mobiliteitsinfrastructuur-in-vlaanderen/standaardbestekken/standaardbestek-260">Standaardbestek 260</a></li>
-									<li><a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/mobiliteitsinfrastructuur-in-vlaanderen/standaardbestekken/standaardbestek-280">Standaardbestek 280</a></li>
-									<li><a href="https://data.vlaanderen.be/cms/openbaardomein/">OSLO Openbaar-domein</a></li>
+							
+								<ul class="vl-link-list vl-link-list--inline vl-link-list--display-inline  vl-link-list--small">
+								
+									<li class="vl-link-list__item">
+										<a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/basiskaart-vlaanderen-grb" class="vl-link">Grootschalig Referentiebestand (GRB)</a>
+									</li>
+									<li class="vl-link-list__item">
+										<a href="https://wegenenverkeer.be/zakelijk/documenten?search=legendeboek" class="vl-link">MOW-AWV Legendeboek</a>
+									</li>
+									<li class="vl-link-list__item">
+										<a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/mobiliteitsinfrastructuur-in-vlaanderen/standaardbestekken/standaardbestek-250" class="vl-link">Standaardbestek 250</a>
+									</li>
+									<li class="vl-link-list__item">
+										<a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/mobiliteitsinfrastructuur-in-vlaanderen/standaardbestekken/standaardbestek-260" class="vl-link">Standaardbestek 260</a>
+									</li>
+									<li class="vl-link-list__item">
+										<a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/mobiliteitsinfrastructuur-in-vlaanderen/standaardbestekken/standaardbestek-280" class="vl-link">Standaardbestek 280</a>
+									</li>
+									<li class="vl-link-list__item"><a href="https://data.vlaanderen.be/cms/openbaardomein/" class="vl-link">OSLO Openbaar-domein</a></li>
 								</ul>
 							</p><br/>
 							<p>Op basis van bovenstaande standaarden is er één master-implementatiemodel ontwikkeld waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Met de OTL kan tijdens alle levensfases van een object data uniform uitgewisseld worden. Te beginnen bij het voorontwerp en zo verder tijdens ontwerp, uitvoering en uiteindelijk beheer en onderhoud. <br>
@@ -218,7 +230,9 @@
 							</ul>			
 							<br>
 							</p>
-							<p><a href="mailto:team.bim@mow.vlaanderen.be" target="_blank">Contacteer ons</a> voor alle mogelijke vragen, opmerking of feedback.
+							<p>
+							<span class="vl-icon vl-vi vl-vi-envelope vl-icon--large"  aria-hidden="true"></span>
+							<a href="mailto:team.bim@mow.vlaanderen.be" target="_blank"> Contacteer ons</a> voor alle mogelijke vragen, opmerking of feedback.
 							</p>
 							<br>
 						</div>
@@ -395,7 +409,7 @@
 			<br>
 			
 			
-			<section class="vl-infoblock vl-infoblock--faq">
+			<section class="vl-infoblock vl-infoblock--faq" id="veelgestelde-vragen">
 			<div class="vl-layout">
 					<div class="vl-grid">
 						<div class="vl-col--12-12 vl-col--12-12--s">
