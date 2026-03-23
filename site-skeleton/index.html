@@ -50,6 +50,7 @@
 		</style>
 	
 	<link rel="stylesheet" href="https://data.vlaanderen.be/assets/css/index.css"/>
+	<link rel="stylesheet" href="https://cdn.vlaanderen.be/vl-ui/latest/css/vl-ui.css">
 	<link rel="icon" sizes="192x192" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
 	<link rel="apple-touch-icon" href="https://data.vlaanderen.be/assets/favicon/icons/apple-touch-icon.png"/>
 	<link rel="apple-touch-icon" sizes="76x76" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
@@ -127,6 +128,22 @@
 							<br>
 						</div>
 						
+<div class="vl-grid">
+  <div class="vl-col--3-12">
+    <nav class="vl-side-navigation vl-side-navigation--sticky">
+      <ul class="vl-side-navigation__list">
+        <li class="vl-side-navigation__item">
+          <a href="#a" class="vl-side-navigation__link">A</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="vl-col--9-12">
+    <section id="a" style="height:1000px;">Content</section>
+  </div>
+</div>
+						
 						<div class="vl-col--3-12 col--12-12--s vl-col--4-12--m" id="sideNav">
 								<nav class="vl-side-navigation js-vl-side-navigation js-vl-sticky js-vl-scrollspy" data-vl-side-navigation data-vl-side-navigation-scrollable data-vl-scrollspy data-vl-scrollspy-mobile=
 									"Componenten" data-vl-sticky data-vl-sticky-offset-top="25" aria-label="inhoudsopgave">
@@ -136,87 +153,88 @@
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
 										<a class="vl-side-navigation__toggle" href="#Implementatiemodellen" data-vl-child="implementatiemodellen">
 										  Implementatiemodellen
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										
 										</a>						
 									  </li>
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
 										<a class="vl-side-navigation__toggle" href="#Vocabularia" data-vl-child="vocabularia">
 										  Vocabularia
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+									
 										</a>
 									  </li>
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
 										<a class="vl-side-navigation__toggle" href="https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/tree/dev/codelijsten" data-vl-child="codelijsten">
 										  Codelijsten
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										
 										</a>								
 									  </li>
 									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
 										<a class="vl-side-navigation__toggle" href="#veelgestelde-vragen" data-vl-child="veelgestelde-vragen">
 										  Veelgestelde vragen
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										
 										</a>								
 									  </li>
 									</ul>
 									
-									 <h5 class="vl-side-navigation__title">Technische documentatie</h5>
+								<h5 class="vl-side-navigation__title">Technische documentatie</h5>
 									<ul class="vl-side-navigation__group" style = "font-size: 1.4rem">
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" data-vl-child="release-notes">
-										  Release notes
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" target="_blank" data-vl-child="release-notes">
+										  Release notes									
 										</a>						
 									  </li>
+									  
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
 										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL.db" data-vl-child="sqlite-download">
 										  SQLite download
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										 
 										</a>
 									  </li>
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-SQLite.pdf" data-vl-child="sqlite-datamodel">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-SQLite.pdf" target="_blank" data-vl-child="sqlite-datamodel">
 										  SQLite datamodel
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										
 										</a>								
 									  </li>
 									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-										<a class="vl-side-navigation__toggle" href="https://opendata.apps.mow.vlaanderen.be/otltool" data-vl-child="sqlite-subset-aanmaken">
+										<a class="vl-side-navigation__toggle" href="https://opendata.apps.mow.vlaanderen.be/otltool target="_blank"" data-vl-child="sqlite-subset-aanmaken">
 										  SQLite subset aanmaken
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										
 										</a>								
 									  </li>
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-TechnischeDocumentatie.pdf" data-vl-child="otl-concepten">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-TechnischeDocumentatie.pdf" target="_blank" data-vl-child="otl-concepten">
 										  OTL concepten
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+							
 										</a>								
 									  </li>
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/GeometrieArtefact.zip" data-vl-child="geometrie-artefact">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/GeometrieArtefact.zip" target="_blank" data-vl-child="geometrie-artefact">
 										  Geometrie artefact
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+									
 										</a>								
 									  </li>
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/DownloadPaginaVersies.html" data-vl-child="vorige-otl-versies">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/DownloadPaginaVersies.html" target="_blank" data-vl-child="vorige-otl-versies">
 										  Vorige OTL versies
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+								
 										</a>								
 									  </li>
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-										<a class="vl-side-navigation__toggle" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/master/html/DownloadPaginaPMVersies.html" data-vl-child="postenmapping-artefact">
+										<a class="vl-side-navigation__toggle" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/master/html/DownloadPaginaPMVersies.html" target="_blank" data-vl-child="postenmapping-artefact">
 										  Postenmapping artefact
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+							
 										</a>								
 									  </li>
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-										<a class="vl-side-navigation__toggle" href="https://github.com/davidvlaminck/otlmow-gui/wiki/Installation" data-vl-child="otl-wizard-2">
+										<a class="vl-side-navigation__toggle" href="https://github.com/davidvlaminck/otlmow-gui/wiki/Installation" target="_blank" data-vl-child="otl-wizard-2">
 										  OTL Wizard 2
-										  <i class="vl-vi vl-vi-arrow-right-fat"></i>
+										  
 										</a>								
 									  </li>
-									</ul>						
-								  </div>												  							  
+									</ul>
+																		
+									</div>												  							  
 								</nav>
 						</div>
 
@@ -1077,6 +1095,7 @@
 		 	  <script src="https://tni.widgets.burgerprofiel.dev-vlaanderen.be/api/v1/widget/c0df3610-36b9-4113-a487-05dfed92c317/embed"></script>
             <!-- End global footer-->
     </div>
-
+<script src="https://cdn.vlaanderen.be/vl-ui/latest/js/vl-ui.js"></script>
+<script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
 </body>
 </html>
