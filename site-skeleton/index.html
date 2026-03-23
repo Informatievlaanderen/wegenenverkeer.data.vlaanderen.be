@@ -1,19 +1,62 @@
 <!DOCTYPE html>
 
-
 <html lang="nl">
 <head>
+	
 	<title>OTL implementatiemodel Data.Vlaanderen.be</title>
+	
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="https://ui.vlaanderen.be/2.latest/css/vlaanderen-ui.css" rel="stylesheet">
-	<link href="https://ui.vlaanderen.be/2.latest/css/vlaanderen-ui-corporate.css" rel="stylesheet">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/icon-highres-precomposed.png" rel="icon" sizes="192x192">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-precomposed.png" rel="apple-touch-icon">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-precomposed.png" rel="apple-touch-icon" sizes="76x76">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-retina-precomposed.png" rel="apple-touch-icon" sizes="120x120">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-retina-precomposed.png" rel="apple-touch-icon" sizes="152x152">
+	
+		<style>
+			.custom-equal-grid {
+			  display: flex;
+			  flex-wrap: wrap;
+			  margin: -0.75rem;
+			}
+
+			.custom-equal-grid > li {
+			  display: flex;
+			  padding: 0.75rem;
+			}
+
+			.custom-equal-grid .vl-doormat {
+			  display: flex;
+			  width: 100%;
+			}
+
+			.custom-equal-grid .vl-doormat__content {
+			  display: flex;
+			  flex-direction: column;
+			  height: 100%;
+			}
+
+			.custom-equal-grid .vl-doormat__title {
+			  display: -webkit-box;
+			  -webkit-line-clamp: 2;
+			  -webkit-box-orient: vertical;
+			  overflow: hidden;
+			  min-height: 3em;
+			}
+
+			.custom-equal-grid .vl-doormat__text {
+			  display: -webkit-box;
+			  -webkit-line-clamp: 3;
+			  -webkit-box-orient: vertical;
+			  overflow: hidden;
+			  min-height: 4.5em;
+			}
+		</style>
+	
+	<link rel="stylesheet" href="https://data.vlaanderen.be/assets/css/index.css"/>
+	<link rel="icon" sizes="192x192" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+	<link rel="apple-touch-icon" href="https://data.vlaanderen.be/assets/favicon/icons/apple-touch-icon.png"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+
+
 	<meta content="https://dij151upo6vad.net.cloudfront/2.latest/icons/app-icon/tile-small.png" name="msapplication-square70x70logo">
 	<meta content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-medium.png" name="msapplication-square150x150logo">
 	<meta content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-wide.png" name="msapplication-wide310x150logo">
@@ -21,903 +64,1095 @@
 	<meta content="#FFE615" name="msapplication-TileColor">
 </head>
 
+
+
 <body>
-	<div id="vlaanderen-header" style="min-height:44px;">
-		<!-- insert your global header here -->
-		<script src="//widgets.vlaanderen.be/widget/live/5ecf33a0a922428cb9d944c55362ed15" type="text/javascript">
-		</script> <!-- end global header-->
-	</div>
+  <div style="min-height:44px;;" id="vlaanderen-header">
+    <!-- insert your global header here -->
+ <!--   <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/b0dae312-e7a6-4612-978a-f0e3b2d975bf/embed"></script> -->
+	 <script src="https://tni.widgets.burgerprofiel.dev-vlaanderen.be/api/v1/widget/c0df3610-36b9-4113-a487-05dfed92c317/embed"></script>
+	
+    <!-- end global header-->
+  </div>
+	
+	
 	<!-- Start page content -->
 
+	<div class="vl-page">
+		<header class="vl-content-header vl-content-header--large vl-content-header--has-logo vl-content-header--show-mobile">
+			<div class="vl-content-header__wrapper">
+				  <picture class="vl-content-header__bg">
+						<img sizes="100vw" src="//www.vlaanderen.be/sites/default/files/ip_acm/page_banner_narrow/header.jpg" srcset="//www.vlaanderen.be/sites/default/files/ip_acm/page_banner_mobile_alt/header.jpg 320w, //www.vlaanderen.be/sites/default/files/ip_acm/page_banner_narrow/header.jpg 1024w, //www.vlaanderen.be/sites/default/files/ip_acm/page_banner_wide_alt/header.jpg 1600w" alt="Content Header">
+					</picture>
 
-	<div class="page">
-		<header class="content-header" role="banner">
-			<div class="content-header__wrapper">
-				<picture><source media="(min-width: 1024px)" srcset="/cms/images/page_banner_wide_alt/header.jpg 1x"> <source media="(max-device-width: 767px)" srcset="/cms/images/page_banner_mobile_alt/header.jpg 1x"> <source media="(max-width: 1023px)" srcset="/cms/images/page_banner_narrow/header.jpg 1x"> <img alt="" src="/cms/images/page_banner_wide_alt/header.jpg" srcset="/cms/images/page_banner_mobile_alt/header.jpg 320w, /cms/images/page_banner_narrow/header.jpg 1024w, /cms/images/page_banner_wide_alt/header.jpg 1600w" title=""></picture>
-
-				<div class="layout layout--wide">
-					<div class="content-header__content">
-						<h1 class="content-header__title"><span class="content-header__title__content">Beleidsdomein MOW implementatiemodel en vocabularia - Productieversie 2.18.1</span>
-						</h1>
+				<div class="vl-layout">
+					<div class="vl-content-header__content">
+							<div class="vl-content-header__logo-wrapper">
+									<a href="https://www.vlaanderen.be/organisaties/administratieve-diensten-van-de-vlaamse-overheid/beleidsdomein-mobiliteit-en-openbare-werken" class="vl-content-header__entity-logo vl-content-header__entity-logo--small">
+										<span class="vl-content-header__entity-logo__prefix">Beleidsdomein</span>
+										<span class="vl-content-header__entity-logo__title">MOW</span>
+									</a>
+							</div>
+							<div class="vl-content-header__context vl-content-header__context--has-link">
+							  <a class="vl-content-header__context__link" href="https://wegenenverkeer.data.dev-vlaanderen.be/">OTL</a>
+							</div>
+						<h2 class="vl-content-header__title ">
+							<span class="vl-content-header__title__content">Implementatiemodel en Vocabularia (IN ONTWERP)</span>
+						</h2>
 					</div>
 				</div>
 			</div>
 		</header>
 
 
-		<div class="main-content" id="main" itemprop="mainContentOfPage" role="main" tabindex="-1">
-			<section class="region">
-				<div class="layout layout--wide" id="introductie">
-					<div class="grid">
-						<div class="col--8-12 col--12-12--s">
-							
-							<!-- Remove this for upgrading message on page
+		<div class="vl-main-content" id="main" itemprop="mainContentOfPage" role="main" tabindex="-1">
+		
+			<section class="vl-region">
+				<div class="vl-layout" id="introductie">
+					<div class="vl-grid">
+						<div class="vl-col--8-12 vl-col--12-12--s">
+						
+						<p>
+							<span class="vl-u-mark  vl-u-mark--warning">Dit is een ontwikkel- en testomgeving. <br> Deze omgeving wordt momenteel gebruikt om een extractie uit de implementatiemodellen m.b.t. het VLAG project te illustreren. 
 							<br>
-							<P STYLE="border: solid #EE4B2B;">Deze pagina ondergaat momenteel een nieuwe publicatie van de OTL. Mogelijks werken enkele links niet naar behoren. Onze excuses hiervoor.</P>
-							<br>
-							-->
-							
-							<div class="typography introduction">
-								Met het programma Open Standaarden voor Linkende Organisaties (OSLO) zet de Vlaamse overheid in op een éénduidige standaard voor de uitwisseling van informatie. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Ontdek hier de beschikbare vocabularia en implementatiemodellen, alsook codelijsten.
-							</div>
+								Dit impliceert dat de standaard die in dit document beschreven wordt in ontwikkeling is. Bijgevolg kan het document op elk moment aangepast, vervangen of ingetrokken worden.
+							</span>
+						</p>
+
+						
+						<br>
+							<p class="vl-introduction">
+								Met het programma Open Standaarden voor Linkende Organisaties (OSLO) zet de Vlaamse overheid in op een éénduidige standaard voor de uitwisseling van informatie. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 280. Ontdek hier de beschikbare vocabularia en implementatiemodellen, alsook codelijsten.
+							</p>
 							<br>
 						</div>
-
-
-						<div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
-							<nav class="side-navigation js-sticky" id="sideNav">
-								<div class="side-navigation__content">
-									<div class="side-navigation__group">
-										<ul>
-											<li class="side-navigation__item">
-												<a href="#Implementatiemodellen">Implementatiemodellen</a>
-											</li>
-
-											<li class="side-navigation__item">
-												<a href="#Vocabularia">Vocabularia</a>
-											</li>
-
-											<li class="side-navigation__item">
-												<a href="https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/tree/master/codelijsten">Keuzelijsten</a>
-											</li>
-
-											<li class="side-navigation__item">
-												<a href="#veelgestelde-vragen">Veelgestelde vragen</a>
-											</li>
-											<li class="side-navigation__item">
-												<a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be" target="_blank">Contacteer ons</a>
-											</li>
-										</ul>
-									</div>
-
-									<div class="side-navigation__group side-navigation__group--has-title">
-										<div class="side-navigation__title">
-											Technische documentatie
-										</div>
-
-
-										<ul>
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" target="_blank">Release notes</a>
-											</li>
-											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL.db" target="_blank">SQLite download</a>
-											</li>
-											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL-SQLite.pdf" target="_blank">SQLite datamodel</a>
-											</li>
-											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="https://opendata.apps.mow.vlaanderen.be/otltool" target="_blank">SQLite subset aanmaken</a>
-											</li>
-																			
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="https://wegenenverkeer.be/zakelijk/bim/webinars-presentaties" target="_blank">OTL concepten</a>
-											</li>
-											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/DownloadPaginaGAVersies.html" target="_blank">Geometrie artefact</a>
-											</li>
-											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/DownloadPaginaVersies.html" target="_blank">Vorige OTL versies</a>
-											</li>
-
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/DownloadPaginaPMVersies.html" target="_blank">Postenmapping artefact</a>
-											</li>
-
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="https://github.com/davidvlaminck/otlmow-gui/wiki/Installation" target="_blank">OTL Wizard 2</a>
-											</li>
-											
-										</ul>
-									</div>
-
-								</div>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-			<section class="region">
-				<div class="layout layout--wide">
-					<p>De <strong>vocabularia</strong> op deze pagina zijn de basis voor open semantische informatiestandaarden, ze bieden een gedeeld begrippenkader voor bepaalde concepten met een focus op gegevensuitwisseling en zijn tot stand gekomen in de werkgroep <a href="https://overheid.vlaanderen.be/producten-diensten/OSLO2" target="_blank">OSLO²</a> van Informatie Vlaanderen.</p>
-					<br>
-
-					<p>Een <strong>implementatiemodel</strong> is een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten. Een implementatiemodel dient als documentatie voor analisten, ontwikkelaars en dataleveranciers.</p>
-					<br>
-					
-					<p>Het implementatiemodel (OTL) wegenenverkeer bouwt voort op een reeks bestaanden standaarden waaronder:<br>
-						<ul> 
-							<li><a href="https://overheid.vlaanderen.be/informatie-vlaanderen/producten-diensten/basiskaart-vlaanderen-grb">Grootschalig Referentiebestand (GRB)</a></li>
-							<li><a href="https://www.wegenenverkeer.be/zakelijk/documenten?search=legendeboek">MOW-AWV Legendeboek</a></li>
-							<li><a href="https://wegenenverkeer.be/standaardbestek">Standaardbestek 250</a></li>
-							<li><a href="http://www.expertisebetonenstaal.be/standaardbestek-260">Standaardbestek 260</a></li>
-							<li><a href="http://wegenenverkeer.be/standaardbestek">Standaardbestek 270</a></li>
-							<li><a href="https://data.vlaanderen.be/cms/openbaardomein">OSLO Openbaar-domein</a></li>
-						</ul>
-					</p><br/>
-		   			<p>Op basis van bovenstaande standaarden is er één master-implementatiemodel ontwikkeld waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Met de OTL kan tijdens alle levensfases van een object data uniform uitgewisseld worden. Te beginnen bij het voorontwerp en zo verder tijdens ontwerp, uitvoering en uiteindelijk beheer en onderhoud. <br>
-					Dit implementatiemodel maakt het mogelijk om een digitale tweeling op te bouwen die voldoende gedetailleerd overeenkomt met de toestand buiten op het terrein. De klassieke as-builtplannen na uitvoering zijn hier uiteraard ook een deel van.</p><br/>
-					<p>Vanuit het implementatiemodel wordt een OSLO standaard ontwikkeld die een maximaal hergebruik van gedefinieerde objecten zal toelaten.</p>
-					<p>De overeenkomst met de objectcatalogus OSLO-openbaar domein wordt beschreven in de <a href="https://data.vlaanderen.be/cms/openbaardomein/AWV_mapping.html">mapping OD OTL</a></p>
-					<br>
-
-					<p>De informatie in de vocabularia en implementatiemodellen is georganiseerd volgens het <a href="http://www.w3.org/TR/2004/REC-rdf-primer-20040210/" target="_blank">Resource Description Framework (RDF)</a>, wat ze geschikt maakt voor gebruik in Linked Data toepassingen.<br>
-					Niet alle concepten die in de implementatiemodellen beschreven worden zijn vandaag ondersteund door de RDF specificaties, details hierover vindt u in volgende <a href="https://wegenenverkeer.data.vlaanderen.be/cms/disclaimer">disclaimer</a>.</p>
-					<br>
-					<p>Daarnaast is het integrale implementatiemodel OTL in een machine-leesbare versie digitaal beschikbaar in volgende formaten:<br>
-					<ul>				
-					<li><a href="/doc/implementatiemodel/master/html/OTL.db">SQLITE</a></li>				
-					</ul>			
-					<br>
-					Aan de hand van deze <a href="https://opendata.apps.mow.vlaanderen.be/otltool">tool</a> kan je van de SQLite je eigen subset aanmaken.
-					</p>
-					<p><a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be" target="_blank">Contacteer ons</a> voor alle mogelijke vragen, opmerkingen of feedback.
-					</p>
-					<br>
-				</div>
-			</section>
-
-
-			<section class="info-block info-block--news" id="Implementatiemodellen">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">Implementatiemodellen</h1>
-					</header>
-				<div>
-				Het volledige master-implementatiemodel wordt opgesplitst in een aantal thematische deel-implementatiemodellen. Deze deel-modellen zijn een overzichtelijke manier om een bepaald deeldomein uit de master weer te geven. Ze behoren echter steeds tot het grotere geheel omdat er immers steeds raakvlakken zijn met andere deeldomeinen. Hieronder volgt een overzicht van de verschillende deel-implementatiemodellen.
-				</div>
-
-
-
-				<div class="info-block__content">
-						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+										
+						<div class="vl-col--3-12 col--12-12--s vl-col--4-12--m" id="sideNav">
+								<nav class="vl-side-navigation js-vl-side-navigation js-vl-sticky js-vl-scrollspy" data-vl-side-navigation data-vl-side-navigation-scrollable data-vl-scrollspy data-vl-scrollspy-mobile=
+									"Componenten" data-vl-sticky data-vl-sticky-offset-top="25" aria-label="inhoudsopgave">
+								  <h5 class="vl-side-navigation__title">Op deze pagina</h5>
+								  <div class="vl-side-navigation__content">
+									<ul class="vl-side-navigation__group" style = "font-size: 1.4rem">
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="#Implementatiemodellen" data-vl-child="implementatiemodellen">
+										  Implementatiemodellen
+										
+										</a>						
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="#Vocabularia" data-vl-child="vocabularia">
+										  Vocabularia
+									
+										</a>
+									  </li>
+									  
+									  	  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="#Applicatieprofielen" data-vl-child="applicatieprofielen">
+										  Applicatieprofielen
+									
+										</a>
+									  </li>
+									  
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/tree/dev/codelijsten" data-vl-child="keuzelijsten">
+										  Keuzelijsten
+										
+										</a>								
+									  </li>
+									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="mailto:team.bim@mow.vlaanderen.be" data-vl-child="contacteer-ons">
+										  Contacteer ons								
+										</a>								
+									  </li>
+									</ul>
+									
+								<h5 class="vl-side-navigation__title">Technische documentatie</h5>
+									<ul class="vl-side-navigation__group" style = "font-size: 1.4rem">
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" target="_blank" data-vl-child="release-notes">
+										  Release notes									
+										</a>						
+									  </li>
+									  
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL.db" data-vl-child="sqlite-download">
+										  SQLite download
+										 
+										</a>
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-SQLite.pdf" target="_blank" data-vl-child="sqlite-datamodel">
+										  SQLite datamodel
+										
+										</a>								
+									  </li>
+									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://opendata.apps.mow.vlaanderen.be/otltool target="_blank"" data-vl-child="sqlite-subset-aanmaken">
+										  SQLite subset aanmaken
+										
+										</a>								
+									  </li>
+									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://github.com/davidvlaminck/otlmow-gui/wiki/Installation" target="_blank" data-vl-child="otl-wizard-2">
+										  OTL Wizard 2
+										  
+										</a>								
+									  </li>		
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-TechnischeDocumentatie.pdf" target="_blank" data-vl-child="otl-concepten">
+										  OTL concepten
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/eenvoudige-datatypes/" id="doormat">
-									<div class="doormat__title">
-										Eenvoudige datatypes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de basis datatypes die gebruikt worden in de verschillende vocabularia.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/complexe-datatypes/" id="doormat">
-									<div class="doormat__title">
-										Complexe datatypes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de complexe datatypes die gebruikt worden in de verschillende vocabularia.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/union-datatypes/" id="doormat">
-									<div class="doormat__title">
-										Union datatypes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de union datatypes die gebruikt worden in de verschillende vocabularia.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/relaties/" id="doormat">
-									<div class="doormat__title">
-										Relaties
-									</div>
-									<span class="doormat__text">Geeft een technisch overzicht van de soorten relaties die tussen objecten kunnen voorkomen.</span></a>
-								</li>
-														
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/" id="doormat">
-									<div class="doormat__title">
-										Master-implementatiemodel
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle objecten die voorkomen in het implementatiemodel wegenenverkeer.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/aim-object/" id="doormat">
-									<div class="doormat__title">
-										AIM Object
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de technische specificaties die nodig zijn voor data-uitwisseling met de MOW AIM-omgeving.</span></a>
-								</li>
-							</ul>
-							<br>
-							<br>
-							<br>
-							<br>
-							<ul class="grid grid--is-stacked js-equal-height-container">
+										</a>									  
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/GeometrieArtefact.zip" target="_blank" data-vl-child="geometrie-artefact">
+										  Geometrie artefact
+									
+										</a>								
+									  </li>								  
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/master/html/DownloadPaginaPMVersies.html" target="_blank" data-vl-child="postenmapping-artefact">
+										  Postenmapping artefact
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/aarding/" id="doormat">
-									<div class="doormat__title">
-										Aarding
-									</div>
-									<span class="doormat__text">Beschrijft de componenten voor de aarding van elektrische hoog- en laagspanningsinstallaties.</span></a>
-								</li>
-
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/afwatering-kunstwerken/" id="doormat">
-									<div class="doormat__title">
-										Afwatering kunstwerken
-									</div>
-									<span class="doormat__text">Beschrijft de componenten voor de afwatering van kunstwerken.</span></a>
-								</li>
+										</a>													
+									  </li>					  
+										<li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/DownloadPaginaVersies.html" target="_blank" data-vl-child="vorige-otl-versies">
+										  Vorige OTL versies
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/akela-failover/" id="doormat">
-									<div class="doormat__title">
-										Akela Failover
-									</div>
-									<span class="doormat__text">Enkel tijdelijk te gebruiken in het kader van de Akela migratie van Agentschap Wegen en Verkeer.</span></a>
-								</li>
-															
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/aswegersite/" id="doormat">
-									<div class="doormat__title">
-										Aswegersite
-									</div>
-									<span class="doormat__text">Beschrijft de componenten van een aswegersite.</span></a>
-								</li>
-
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/bewegingsmechanisme/" id="doormat">
-									<div class="doormat__title">
-										Bewegingsmechanisme
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die behoren tot de bewegingsmechanismen ikv elektromechanische technieken</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/biflash/" id="doormat">
-									<div class="doormat__title">
-										Bi-flash
-									</div>
-									<span class="doormat__text">Beschrijft componenten van een Bi-flash opstelling.</span></a>
-								</li>
-							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/brandleiding/" id="doormat">
-									<div class="doormat__title">
-										Brandleiding
-									</div>
-									<span class="doormat__text">Beschrijft het brandleidingensysteem van tunnels en de bijbehorende gebouwen.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/brug/" id="doormat">
-									<div class="doormat__title">
-										Bruggen
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die kunnen horen bij verschillende types bruggen, zoals beschreven in SB260.</span></a>
-								</li>
-
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/camerainstallatie/" id="doormat">
-									<div class="doormat__title">
-										Camerainstallatie
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij de verschillende opstellingen van camerainstallaties.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/constructie-element/" id="doormat">
-									<div class="doormat__title">
-										Constructie-elementen
-									</div>
-									<span class="doormat__text">Geeft een overzicht van objecten die kunnen dienen als basis-bouwstenen voor de opbouw van verschillende constructies/kunstwerken, zoals beschreven in SB260.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/draagconstructies/" id="doormat">
-									<div class="doormat__title">
-										Draagconstructies
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die als draagconstructie kunnen dienen voor elektromechanische wegaanhorigheden en verkeersborden.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/dynamische-borden/" id="doormat">
-									<div class="doormat__title">
-										Dynamische borden
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij de verschillende soorten installaties van dynamische borden.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/ecologische-maatregelen/" id="doormat">
-									<div class="doormat__title">
-										Ecologische maatregelen
-									</div>
-									<span class="doormat__text">Beschrijft onderdelen en installaties die horen bij ecologische maatregelen.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/elektrische-componenten/" id="doormat">
-									<div class="doormat__title">
-										Elektrische componenten
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij de elektrische keten te beginnen aan de distributienetbeheerder tot aan een stroomkring.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/elektromechanische-afbakening/" id="doormat">
-									<div class="doormat__title">
-										Elektromechanische afbakening
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij verschillende types lichtpunten en andere elektrische toestellen die waarschuwen voor gevaarlijke situaties op en langs de weg.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/fietstelinstallatie/" id="doormat">
-									<div class="doormat__title">
-										Fietstelinstallatie
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij punten waar voorbijrijdende fietsers geteld worden.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/fundering/" id="doormat">
-									<div class="doormat__title">
-										Fundering
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die kunnen horen bij verschillende types van fundering.</span></a>
-								</li>
-
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/geleidingsmechanisme/" id="doormat">
-									<div class="doormat__title">
-										Geleidingsmechanisme
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die behoren tot de geleidingsmechanismen ikv elektromechanische technieken.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/grondkerende-constructies/" id="doormat">
-									<div class="doormat__title">
-										Grondkerende constructies
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die kunnen horen bij grondkerende constructies.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/grondwerken/" id="doormat">
-									<div class="doormat__title">
-										Grondwerken
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij grondwerken.</span></a>
-								</li>
-
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/hoogtebegrenzer/" id="doormat">
-									<div class="doormat__title">
-										Hoogtebegrenzer
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die horen bij Hoogtebegrenzer.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/hoppinpunten/" id="doormat">
-									<div class="doormat__title">
-										Hoppinpunten
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die horen bij hoppinpunten.</span></a>
-								</li>
-																																		
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/hulpposten/" id="doormat">
-									<div class="doormat__title">
-										Hulpposten
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die horen bij hulpposten en brandbestrijding in tunnels voor gebruik in het Standaardbestek 270.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/inbreuken-zwaar-vervoer/" id="doormat">
-									<div class="doormat__title">
-										Inbreuken zwaar vervoer
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een opstelling om inbreuken op de wetgeving rond zwaar vervoer vast te stellen.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/ip-netwerk/" id="doormat">
-									<div class="doormat__title">
-										IP-Netwerk
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die het mogelijk maken om data tussen toepassingen te transporteren over een IP netwerk.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/kabelsenleidingen/" id="doormat">
-									<div class="doormat__title">
-										Kabels en leidingen
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij kabels en leidingen voor elektromechanische componenten.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/kasten-cabines-behuizing/" id="doormat">
-									<div class="doormat__title">
-										Kasten, cabines, behuizing
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij kasten, cabines of behuizingen als “omhulsel” voor EM-componenten.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/koker/" id="doormat">
-									<div class="doormat__title">
-										Koker
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die kunnen horen bij kokers, zoals beschreven in SB260.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/luchtkwaliteit/" id="doormat">
-									<div class="doormat__title">
-										Luchtkwaliteit
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die horen bij luchkwaliteitssensoren in tunnels voor gebruik in het Standaardbestek 270.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/lijnvormige-elementen/" id="doormat">
-									<div class="doormat__title">
-										Lijnvormige elementen
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij lijnvormige elementen zoals gespecificeerd in hoofdstuk 8 van Standaardbestek 250.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/luidspreker-intercom/" id="doormat">
-									<div class="doormat__title">
-										Luidsprekers en intercom
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die horen bij het luidspreker- en intercomsysteem voor gebruik in het Standaardbestek 270.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/meten-in-vlaanderen/" id="doormat">
-									<div class="doormat__title">
-										Meten in Vlaanderen
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een Meten in Vlaanderen (MIV) - opstelling.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/meteo/" id="doormat">
-									<div class="doormat__title">
-										Meteo
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een Meteo meetstation - opstelling.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/optisch-transport-netwerk/" id="doormat">
-									<div class="doormat__title">
-										Optisch transport netwerk
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij het optisch transport netwerk (OTN).</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/pompgroep/" id="doormat">
-									<div class="doormat__title">
-										Pompgroep
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een pompgroep.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/pompstation/" id="doormat">
-									<div class="doormat__title">
-										Pompstation
-									</div>
-									<span class="doormat__text">Beschrijft het hydraulisch systeem voor de aansluiting van verschillende types pompen op het rioleringssysteem voor tunnels.</span></a>
-								</li>
-																
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/proeven-metingen/" id="doormat">
-									<div class="doormat__title">
-										Proeven en metingen
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij proeven en metingen uitgevoerd op objecten uit het Standaardbestek 250.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/punctuele-verlichting/" id="doormat">
-									<div class="doormat__title">
-										Punctuele verlichting
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij punctuele verlichting uit het Standaardbestek 270, die ervoor zorgen dat een voetganger of fietser veilig kan oversteken.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/radioheruitzending/" id="doormat">
-									<div class="doormat__title">
-										Radioheruitzending
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een radioheruitzend installatie voor tunnels.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/riolering/" id="doormat">
-									<div class="doormat__title">
-										Riolering
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij riolering zoals gespecificeerd in hoofdstuk 7 en 9 van Standaardbestek 250.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/signalisatie/" id="doormat">
-									<div class="doormat__title">
-										Signalisatie
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die horen bij signalisatie zoals gespecificeerd in hoofdstuk 10 van Standaardbestek 250.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/sites/" id="doormat">
-									<div class="doormat__title">
-										Sites
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die een site of terrein zijn.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/slagboom-doorsteek/" id="doormat">
-									<div class="doormat__title">
-										Slagbomen en doorsteken
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die horen bij slagbomen en (calamiteiten)doorsteken voor gebruik in het Standaardbestek 270.</span></a>
-								</li>
-
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/sluizen-stuwen/" id="doormat">
-									<div class="doormat__title">
-										Sluizen en stuwen
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij sluizen en stuwen.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/snelheids-roodlichtcamera/" id="doormat">
-									<div class="doormat__title">
-										Snelheids- en roodlichtcamera's
-									</div>
-									<span class="doormat__text">Geef een overzicht van de objecten die behoren bij een snelheids- en roodlichtcamera.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/software-hardware/" id="doormat">
-									<div class="doormat__title">
-										Software en hardware
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij software en hardware.</span></a>
-								</li>
-
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/toegangscontrole/" id="doormat">
-									<div class="doormat__title">
-										Toegangscontrole
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij de verschillende opstellingen van toegangscontrole.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/trajectcontrole/" id="doormat">
-									<div class="doormat__title">
-										Trajectcontrole
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een Trajectcontrole.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/tunnelevacuatie/" id="doormat">
-									<div class="doormat__title">
-										Tunnelevacuatie
-									</div>
-									<span class="doormat__text">Beschrijft evacuatiesystemen van tunnels en de bijbehorende gebouwen.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/ups/" id="doormat">
-									<div class="doormat__title">
-										UPS
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een UPS (Uninterruptible Power Supply) opstelling.</span></a>
-								</li>
-																
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/vegetatie/" id="doormat">
-									<div class="doormat__title">
-										Vegetatie
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die horen bij vegetatie zoals voornamelijk gespecificeerd in hoofdstuk 11 en ook deels in hoofdstuk 4 en 13 van Standaardbestek 250.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/ventilatie/" id="doormat">
-									<div class="doormat__title">
-										Ventilatie
-									</div>
-									<span class="doormat__text">Beschrijft ventilatiesystemen van tunnels en de bijbehorende gebouwen.</span></a>
-								</li>
-
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/verharding-wegfundering/" id="doormat">
-									<div class="doormat__title">
-										Verharding en wegfundering
-									</div>
-									<span class="doormat__text">Beschrijft de objecten die horen bij verharding, wegfundering en onderfundering zoals gespecificeerd in hoofdstuk 5, 6 en 12 van Standaardbestek 250.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/verkeersregelinstallatie/" id="doormat">
-									<div class="doormat__title">
-										Verkeersregelinstallatie
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een verkeersregelinstallatie (VRI).</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/verlichtingsinstallatie/" id="doormat">
-									<div class="doormat__title">
-										Verlichtingsinstallatie
-									</div>
-									<span class="doormat__text">Geeft een overzicht van objecten die horen bij verlichting in het algemeen en wegverlichting in het bijzonder binnen het kader van Standaardbestek 270.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/waterlopen/" id="doormat">
-									<div class="doormat__title">
-										Waterlopen(basis)
-									</div>
-									<span class="doormat__text">Geeft een basisoverzicht van de objecten die horen bij Waterrlopen zoals gespecifieerd in hoofdstuk 13 van Standaardbestek 250.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/wilddetectiesysteem/" id="doormat">
-									<div class="doormat__title">
-										Wilddetectiesysteem
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij wilddetectiesysteem dat de beweging van dieren in de omgeving van de weg registreert.</span></a>
-								</li>
-																					
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/zone-30/" id="doormat">
-									<div class="doormat__title">
-										Zone 30
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een zone-30 installatie.</span></a>
-								</li>
-
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/zonnepanelenpark/" id="doormat">
-									<div class="doormat__title">
-										Zonnepanelenpark
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een zonnepanelenpark of zonnepaneleninstallatie.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/zoutbijlaadplaats/" id="doormat">
-									<div class="doormat__title">
-										Zoutbijlaadplaats
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de objecten die horen bij een zoutbijlaadplaats.</span></a>
-								</li>
-																							
-																			
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-			<section class="info-block info-block--news" id="Vocabularia">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">Vocabularia</h1>
-					</header>
-					<div>
-					Het domeinoverkoepelende OTL master-implementatiemodel vormt de basis voor data-uitwisseling conform de verschillende Standaardbestekken. Dit overkoepelende implementatiemodel maakt gebruik van volgende vocabularia binnen het wegenenverkeer domein:
-					</div>
-
-					<div class="info-block__content">
-						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/abstracten/" id="doormat">
-									<div class="doormat__title">
-										Abstracten
-									</div>
-									<span class="doormat__text">Definieert objecten die gemeenschappelijke relaties en attributen groeperen vanuit modelleertechnisch oogpunt.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/implementatieelement/" id="doormat">
-									<div class="doormat__title">
-										Implementatie-element
-									</div>
-									<span class="doormat__text">Definieert technische objecten nodig voor de data-uitwisseling met de AIM-omgeving.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/installatie/" id="doormat">
-									<div class="doormat__title">
-										Installatie
-									</div>
-									<span class="doormat__text">Definieert de installaties en groeperingen die een samenvoeging zijn van onderdelen.</span></a>
-								</li>
-								
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/levenscyclus/" id="doormat">
-									<div class="doormat__title">
-										Levenscyclus
-									</div>
-									<span class="doormat__text">Definieert objecten die verband houden met de levenscyclus van objecten.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/onderdeel/" id="doormat">
-									<div class="doormat__title">
-										Onderdeel
-									</div>
-									<span class="doormat__text">Definieert de fysieke objecten of bouwstenen van de weg(aanhorigheden).</span></a>
-								</li>
+										</a>								
+									  </li>	
+																		  
+									</ul>
 																		
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/proefenmeting/" id="doormat">
-									<div class="doormat__title">
-										Proef en meting
-									</div>
-									<span class="doormat__text">Definieert objecten waarin de proeven en metingen beschreven worden.</span></a>
-								</li>
+									</div>												  							  
+								</nav>
+						</div>
 
-							</ul>
+					</div>
+					
+				</div>
+			</section>
+
+		
+			<section class="vl-region">	
+				<div class="vl-layout">
+					 <div class="vl-grid">
+						<div class="vl-col--12-12 vl-col--12-12--s">
+							<p>De <strong>vocabularia</strong> op deze pagina zijn de basis voor open semantische informatiestandaarden, ze bieden een gedeeld begrippenkader voor bepaalde concepten met een focus op gegevensuitwisseling en zijn tot stand gekomen in de werkgroep <a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/oslo" target="_blank">OSLO</a> van Informatie Vlaanderen.</p>
+							<br>
+
+							<p>Een <strong>implementatiemodel</strong> is een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten. Een implementatiemodel dient als documentatie voor analisten, ontwikkelaars en dataleveranciers.</p>
+							<br>
+							
+							<p>Het implementatiemodel (OTL) wegenenverkeer bouwt voort op een reeks bestaanden standaarden waaronder:<br>
+							
+								<ul class="vl-link-list vl-link-list--inline vl-link-list--display-inline  vl-link-list--small">
+								
+									<li class="vl-link-list__item">
+										<a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/basiskaart-vlaanderen-grb" class="vl-link">Grootschalig Referentiebestand (GRB)</a>
+									</li>
+									<li class="vl-link-list__item">
+										<a href="https://wegenenverkeer.be/zakelijk/documenten?search=legendeboek" class="vl-link">MOW-AWV Legendeboek</a>
+									</li>
+									<li class="vl-link-list__item">
+										<a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/mobiliteitsinfrastructuur-in-vlaanderen/standaardbestekken/standaardbestek-250" class="vl-link">Standaardbestek 250</a>
+									</li>
+									<li class="vl-link-list__item">
+										<a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/mobiliteitsinfrastructuur-in-vlaanderen/standaardbestekken/standaardbestek-260" class="vl-link">Standaardbestek 260</a>
+									</li>
+									<li class="vl-link-list__item">
+										<a href="https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/mobiliteitsinfrastructuur-in-vlaanderen/standaardbestekken/standaardbestek-280" class="vl-link">Standaardbestek 280</a>
+									</li>
+									<li class="vl-link-list__item"><a href="https://data.vlaanderen.be/cms/openbaardomein/" class="vl-link">OSLO Openbaar-domein</a></li>
+								</ul>
+							</p><br/>
+							<p>Op basis van bovenstaande standaarden is er één master-implementatiemodel ontwikkeld waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Met de OTL kan tijdens alle levensfases van een object data uniform uitgewisseld worden. Te beginnen bij het voorontwerp en zo verder tijdens ontwerp, uitvoering en uiteindelijk beheer en onderhoud. <br>
+							Dit implementatiemodel maakt het mogelijk om een digitale tweeling op te bouwen die voldoende gedetailleerd overeenkomt met de toestand buiten op het terrein. De klassieke as-builtplannen na uitvoering zijn hier uiteraard ook een deel van.</p><br/>
+							<p>Vanuit het implementatiemodel wordt een OSLO standaard ontwikkeld die een maximaal hergebruik van gedefinieerde objecten zal toelaten.</p>
+							<p>De overeenkomst met de objectcatalogus OSLO-openbaar domein wordt beschreven in de <a href="https://test.data.vlaanderen.be/cms/openbaardomein/AWV_mapping.html">mapping OD OTL</a></p>
+							<br>
+
+							<p>De informatie in de vocabularia en implementatiemodellen is georganiseerd volgens het <a href="http://www.w3.org/TR/2004/REC-rdf-primer-20040210/" target="_blank">Resource Description Framework (RDF)</a>, wat ze geschikt maakt voor gebruik in Linked Data toepassingen.<br>
+							Niet alle concepten die in de implementatiemodellen beschreven worden zijn vandaag ondersteund door de RDF specificaties, details hierover vindt u in volgende <a href="https://wegenenverkeer.data.vlaanderen.be/cms/disclaimer.html">disclaimer</a>.</p>
+							<br>
+							<p>Daarnaast is het integrale implementatiemodel OTL in een machine-leesbare versie digitaal beschikbaar in volgende formaten:<br>
+							<ul>				
+							<li><a href="/doc/implementatiemodel/master/html/OTL.db">SQLITE</a></li>				
+							</ul>			
+							<br>
+							</p>
+							<p>
+							<span class="vl-icon vl-vi vl-vi-envelope vl-icon--large"  aria-hidden="true"></span>
+							<a href="mailto:team.bim@mow.vlaanderen.be" target="_blank"> Contacteer ons</a> voor alle mogelijke vragen, opmerking of feedback.
+							</p>
+							<br>
+						</div>
+					</div>						
+				</div>
+			</section>
+
+
+			<section class="vl-infoblock vl-infoblock--news" id="Implementatiemodellen">	
+		
+			<div class="vl-layout">
+				<div class="vl-grid">
+					<div class="vl-col--12-12 vl-col--12-12--s">
+			
+							<header class="vl-infoblock__header" role="presentation">
+								<i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+									<h1 class="vl-infoblock__title">Implementatiemodellen</h1>
+							</header>
+							
+							<div class="vl-infoblock__content">
+							Het volledige master-implementatiemodel wordt opgesplitst in een aantal thematische deel-implementatiemodellen. Deze deel-modellen zijn een overzichtelijke manier om een bepaald deeldomein uit de master weer te geven. Ze behoren echter steeds tot het grotere geheel omdat er immers steeds raakvlakken zijn met andere deeldomeinen. Hieronder volgt een overzicht van de verschillende deel-implementatiemodellen.				
+							</div>
+						<br>
+
+
+
+						<div class="vl-info-block__content">
+							
+					
+									<!--	<ul class="vl-grid vl-grid--is-stacked"> -->
+									<ul class="vl-grid custom-equal-grid">
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/eenvoudige-datatypes/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Eenvoudige datatypes</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de basis datatypes die gebruikt worden in de verschillende vocabularia.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/complexe-datatypes/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Complexe datatypes</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de basis datatypes die gebruikt worden in de verschillende vocabularia.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/union-datatypes/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Union datatypes</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de union datatypes die gebruikt worden in de verschillende vocabularia.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/relaties/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Relaties</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een technisch overzicht van de soorten relaties die tussen objecten kunnen voorkomen.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Master-implementatiemodel</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle objecten die voorkomen in het implementatiemodel wegenenverkeer.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/aim-object/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">AIM Object</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de technische specificaties die nodig zijn voor data-uitwisseling met de MOW AIM-omgeving.</div>
+												  </div>
+												</a>
+											</li>															
+										</ul>
+
+										<br>
+										<br>
+										<br>
+										<br>
+										
+
+
+									<ul class="vl-grid custom-equal-grid">
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/aarding/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Aarding</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de componenten voor de aarding van elektrische hoog- en laagspanningsinstallaties.</div>
+												  </div>
+												</a>
+											</li>
+
+											<li class="vl-col--4-12 col--1-2--s col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height"  href="/doc/implementatiemodel/afwatering-kunstwerken/">
+												<div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Afwatering kunstwerken</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de componenten voor de afwatering van kunstwerken.</div>
+												  </div>
+												</a>
+											</li>
+										
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/akela-failover/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Akela Failover</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Enkel tijdelijk te gebruiken in het kader van de Akela migratie van Agentschap Wegen en Verkeer.</div>
+												  </div>
+												</a>
+											</li>
+
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/aswegersite/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Aswegersite</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de componenten van een aswegersite.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/bewegingsmechanisme/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Bewegingsmechanisme</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die behoren tot de bewegingsmechanismen ikv elektromechanische technieken.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/biflash/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Bi-flash</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft componenten van een Bi-flash opstelling.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/brandleiding/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Brandleiding</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft het brandleidingensysteem van tunnels en de bijbehorende gebouwen.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/brug/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Bruggen</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die kunnen horen bij verschillende types bruggen, zoals beschreven in SB260.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/camerainstallatie/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Camerainstallatie</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Een overzicht van de objecten die horen bij de verschillende opstellingen van camerainstallaties.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/constructie-element/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Constructie-elementen</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Objecten die kunnen dienen als basis-bouwstenen voor de opbouw van verschillende constructies/kunstwerken, zoals beschreven in SB260.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/draagconstructies/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Draagconstructies</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Een overzicht van de objecten die als draagconstructie kunnen dienen voor elektromechanische wegaanhorigheden en verkeersborden.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/dynamische-borden/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Dynamische borden</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Een overzicht van de objecten die horen bij de verschillende soorten installaties van dynamische borden.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/ecologische-maatregelen/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Ecologische maatregelen</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft onderdelen en installaties die horen bij ecologische maatregelen.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/elektrische-componenten/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Elektrische componenten</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Een overzicht van de objecten die horen bij de elektrische keten te beginnen aan de distributienetbeheerder tot aan een stroomkring.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/elektromechanische-afbakening/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Elektromechanische afbakening</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij verschillende types lichtpunten en andere elektrische toestellen die waarschuwen voor gevaarlijke situaties op en langs de weg.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/fietstelinstallatie/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Fietstelinstallatie</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij punten waar voorbijrijdende fietsers geteld worden.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/fundering/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Fundering</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die kunnen horen bij verschillende types van fundering.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/geleidingsmechanisme/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Geleidingsmechanisme</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die behoren tot de geleidingsmechanismen ikv elektromechanische technieken.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/grondkerende-constructies/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Grondkerende constructies</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die kunnen horen bij grondkerende constructies.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/grondwerken/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Grondwerken</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij grondwerken.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/hoogtebegrenzer/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Hoogtebegrenzer</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die horen bij Hoogtebegrenzer.</div>
+												  </div>
+												</a>
+											</li>
+											
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/hoppinpunten/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Hoppinpunten</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die horen bij hoppinpunten.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Hulpposten</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die horen bij hulpposten en brandbestrijding in tunnels voor gebruik in het Standaardbestek 280.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/inbreuken-zwaar-vervoer/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Inbreuken zwaar vervoer</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een opstelling om inbreuken op de wetgeving rond zwaar vervoer vast te stellen.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/ipnetwerk/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">IP-Netwerk</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die het mogelijk maken om data tussen toepassingen te transporteren over een IP netwerk.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/kabelsenleidingen/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Kabels en leidingen</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij kabels en leidingen voor elektromechanische componenten.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/kasten-cabines-behuizing/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Kasten, cabines, behuizing</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij kasten, cabines of behuizingen als “omhulsel” voor EM-componenten.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/koker/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Koker</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die kunnen horen bij kokers, zoals beschreven in SB260.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/luchtkwaliteit/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Luchtkwaliteit</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die horen bij luchkwaliteitssensoren in tunnels voor gebruik in het Standaardbestek 280.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/lijnvormige-elementen/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Lijnvormige elementen</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij lijnvormige elementen zoals gespecificeerd in hoofdstuk 8 van Standaardbestek 250.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/luidspreker-intercom/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Luidsprekers en intercom</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die horen bij het luidspreker- en intercomsysteem voor gebruik in het Standaardbestek 280.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/meten-in-vlaanderen/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Meten in Vlaanderen</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een Meten in Vlaanderen (MIV) - opstelling.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/meteo/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Meteo</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een Meteo meetstation - opstelling.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/optisch-transport-netwerk/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Optisch transport netwerk</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij het optisch transport netwerk (OTN).</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/pompgroep/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Pompgroep</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een pompgroep.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/pompstation/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Pompstation</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft het hydraulisch systeem voor de aansluiting van verschillende types pompen op het rioleringssysteem voor tunnels.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/proeven-metingen/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Proeven en metingen</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij proeven en metingen uitgevoerd op objecten uit het Standaardbestek 250.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/punctueleverlichting/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Punctuele verlichting</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij punctuele verlichting uit het Standaardbestek 280, die ervoor zorgen dat een voetganger of fietser veilig kan oversteken.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/radioheruitzending/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Radioheruitzending</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een radioheruitzend installatie voor tunnels.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/riolering/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Riolering</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij riolering zoals gespecificeerd in hoofdstuk 7 en 9 van Standaardbestek 250.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/signalisatie/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Signalisatie</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die horen bij signalisatie zoals gespecificeerd in hoofdstuk 10 van Standaardbestek 250.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/sites/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Sites</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die een site of terrein zijn.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/slagboom-doorsteek/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Slagbomen en doorsteken</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die horen bij slagbomen en (calamiteiten)doorsteken voor gebruik in het Standaardbestek 280.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/sluizenstuwen/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Sluizen en stuwen</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij sluizen en stuwen.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/snelheidsroodlichtcamera/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Snelheids- en roodlichtcamera's</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geef een overzicht van de objecten die behoren bij een snelheids- en roodlichtcamera.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/software-hardware/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Software en hardware</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij software en hardware.</div>
+												  </div>
+												</a>
+											</li>
+																	
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/toegangscontrole/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Toegangscontrole</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij de verschillende opstellingen van toegangscontrole.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/trajectcontrole/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Trajectcontrole</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een Trajectcontrole.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/tunnelevacuatie/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Tunnelevacuatie</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft evacuatiesystemen van tunnels en de bijbehorende gebouwen.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/ups/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">UPS</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een UPS (Uninterruptible Power Supply) opstelling.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/vegetatie/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Vegetatie</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die horen bij vegetatie zoals voornamelijk gespecificeerd in het  Standaardbestek 250.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/ventilatie/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Ventilatie</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft ventilatiesystemen van tunnels en de bijbehorende gebouwen.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/verharding-wegfundering/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Verharding en wegfundering</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Beschrijft de objecten die horen bij verharding, wegfundering en onderfundering zoals gespecificeerd in Standaardbestek 250.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/verkeersregelinstallatie/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Verkeersregelinstallatie</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een verkeersregelinstallatie (VRI).</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/verlichtingsinstallatie/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Verlichtingsinstallatie</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van objecten die horen bij verlichting in het algemeen en wegverlichting in het bijzonder binnen het kader van Standaardbestek 280.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/waterlopen/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Waterlopen(basis)</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een basisoverzicht van de objecten die horen bij Waterrlopen zoals gespecifieerd in  Standaardbestek 250.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/wilddetectiesysteem/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Wilddetectiesysteem</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij wilddetectiesysteem dat de beweging van dieren in de omgeving van de weg registreert.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/zone-30/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Zone 30</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een zone-30 installatie.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/zonnepanelenpark/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Zonnepanelenpark</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een zonnepanelenpark of zonnepaneleninstallatie.</div>
+												  </div>
+												</a>
+											</li>
+											
+											<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+												<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/zoutbijlaadplaats/">
+												  <div class="vl-doormat__content">
+													<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+													<h2 class="vl-doormat__title" data-vl-clamp="2">Zoutbijlaadplaats</h2>
+													<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de objecten die horen bij een zoutbijlaadplaats.</div>
+												  </div>
+												</a>
+											</li>
+											
+											
+											
+																	
+										</ul>
+						</div>		
+					</div>
+				</div>
+			</section>
+			<br>
+			
+			
+			
+			
+			<section class="vl-infoblock vl-infoblock--news" id="Vocabularia">
+				<div class="vl-layout">
+					<div class="vl-grid">
+						<div class="vl-col--12-12 vl-col--12-12--s">
+							<header class="vl-infoblock__header" role="presentation">
+								<i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+									<h1 class="vl-infoblock__title">Vocabularia</h1>
+							</header>
+							
+							<div class="vl-infoblock__content">	
+								Het domeinoverkoepelende OTL master-implementatiemodel vormt de basis voor data-uitwisseling conform de verschillende Standaardbestekken. Dit overkoepelende implementatiemodel maakt gebruik van volgende vocabularia binnen het wegenenverkeer domein:
+							
+							</div>
+							
+							<br>
+							<div class="vl-info-block__content">
+								<div id="doormats">
+										<ul class="vl-grid custom-equal-grid">
+										
+												<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+													<a class="vl-doormat js-vl-equal-height" href="/ns/abstracten/">
+													  <div class="vl-doormat__content">
+														<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+														<h2 class="vl-doormat__title" data-vl-clamp="2">Abstracten</h2>
+														<div class="vl-doormat__text" data-vl-clamp="3">Definieert objecten die gemeenschappelijke relaties en attributen groeperen vanuit modelleertechnisch oogpunt.</div>
+													  </div>
+													</a>
+												</li>
+												
+												<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+													<a class="vl-doormat js-vl-equal-height" href="/ns/implementatieelement/">
+													  <div class="vl-doormat__content">
+														<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+														<h2 class="vl-doormat__title" data-vl-clamp="2">Implementatie-element</h2>
+														<div class="vl-doormat__text" data-vl-clamp="3">Definieert technische objecten nodig voor de data-uitwisseling met de AIM-omgeving.</div>
+													  </div>
+													</a>
+												</li>
+												
+												<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+													<a class="vl-doormat js-vl-equal-height" href="/ns/installatie/">
+													  <div class="vl-doormat__content">
+														<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+														<h2 class="vl-doormat__title" data-vl-clamp="2">Installatie</h2>
+														<div class="vl-doormat__text" data-vl-clamp="3">Definieert de installaties en groeperingen die een samenvoeging zijn van onderdelen.</div>
+													  </div>
+													</a>
+												</li>
+												
+												<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+													<a class="vl-doormat js-vl-equal-height" href="/ns/levenscyclus/">
+													  <div class="vl-doormat__content">
+														<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+														<h2 class="vl-doormat__title" data-vl-clamp="2">Levenscyclus</h2>
+														<div class="vl-doormat__text" data-vl-clamp="3">Definieert objecten die verband houden met de levenscyclus van objecten.</div>
+													  </div>
+													</a>
+												</li>
+												
+												
+												<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+													<a class="vl-doormat js-vl-equal-height" href="/ns/onderdeel/">
+													  <div class="vl-doormat__content">
+														<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+														<h2 class="vl-doormat__title" data-vl-clamp="2">Onderdeel</h2>
+														<div class="vl-doormat__text" data-vl-clamp="3">Definieert de fysieke objecten of bouwstenen van de weg(aanhorigheden).</div>
+													  </div>
+													</a>
+												</li>
+												
+												<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+													<a class="vl-doormat js-vl-equal-height" href="/ns/proefenmeting/">
+													  <div class="vl-doormat__content">
+														<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+														<h2 class="vl-doormat__title" data-vl-clamp="2">Proef en meting</h2>
+														<div class="vl-doormat__text" data-vl-clamp="3">Definieert objecten waarin de proeven en metingen beschreven worden.</div>
+													  </div>
+													</a>
+												</li>
+											</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<br>
+			
+			<section class="vl-infoblock vl-infoblock--news" id="Applicatieprofielen">
+				<div class="vl-layout">
+					<div class="vl-grid">
+						<div class="vl-col--12-12 vl-col--12-12--s">
+							<header class="vl-infoblock__header" role="presentation">
+								<i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+									<h1 class="vl-infoblock__title">Applicatieprofielen</h1>
+							</header>
+							
+							<div class="vl-infoblock__content">	
+								Een applicatieprofiel is een specifieke combinatie van termen voor een bepaalde applicatie of digitale toepassing.
+							
+							</div>
+							
+							<br>
+							<div class="vl-info-block__content">
+								<div id="doormats">
+										<ul class="vl-grid custom-equal-grid">
+										
+												<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+													<a class="vl-doormat js-vl-equal-height" href="/doc/applicatieprofiel/signalisatievlaanderen/ontwerpdocument/1.0.0">
+													  <div class="vl-doormat__content">
+														<span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+														<h2 class="vl-doormat__title" data-vl-clamp="2">Signalisatie Vlaanderen</h2>
+														<div class="vl-doormat__text" data-vl-clamp="3">Geeft een geïntegreerd overzicht van wegsignalisatie van juridisch besluit tot fysiek object.</div>
+													  </div>
+													</a>
+												</li>											
+											</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 			
-			<section class="info-block info-block--news" id="Applicatieprofielen">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">Applicatieprofielen</h1>
-					</header>
-					<div>
-					Een applicatieprofiel is een specifieke combinatie van termen voor een bepaalde applicatie of digitale toepassing.
-					</div>
-
-					<div class="info-block__content">
-						<div id="doormats">
-						
-							<ul class="grid grid--is-stacked js-equal-height-container">
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/applicatieprofiel/signalisatievlaanderen/ontwerpdocument/1.0.0" id="doormat">
-									<div class="doormat__title">
-										Signalisatie Vlaanderen
-									</div>
-									<span class="doormat__text">Geeft een geïntegreerd overzicht van wegsignalisatie van juridisch besluit tot fysiek object.</span></a>
-								</li>
-												
-								
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-
-
-			<div class="region" id="veelgestelde-vragen">
-				<section class="named-anchor info-block info-block--faq">
-					<div class="layout layout--wide" id="infoblock">
-						<div class="layout__wrapper">
-							<header class="info-block__header">
-								<h1 class="label-above info-block__title">Veelgestelde vragen</h1>
+			<!--
+			<section class="vl-infoblock vl-infoblock--faq" id="veelgestelde-vragen">
+			<div class="vl-layout">
+					<div class="vl-grid">
+						<div class="vl-col--12-12 vl-col--12-12--s">
+							<header class="vl-infoblock__header" role="presentation">
+								<i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+								<h2 class="vl-infoblock__title">Veelgestelde vragen</h2>
 							</header>
-
-							<div class="info-block__content">
-								<div class="view-ip-related-questions view-display-id-default">
-									<ul class="grid">
-										
-										<li class="col--6-12 col--12-12--s">
-											<ul class="link-list">
-												<li>
-													<a class="toggle--arrow-down link--icon--caret link--block" data-drawer-content-id="270936" data-drawer-id="related-questions" href="#">Hoe gebruik ik de vocabularia en applicatieprofielen om interoperabele toepassingen en web services te ontwikkelen?</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</div>
+							<div class="vl-infoblock__content">
+									Hieronder bevindt zicht een overzicht van alle veelgestelde vragen binnen de Vlaamse Overheid.
 							</div>
 						</div>
 					</div>
-				</section>
-
-
-				<div>
-					<div class="drawer" data-drawer="related-questions" tabindex="-1">
-						<button class="drawer__close link link--icon--close js-drawer__close" title="sluiten"><span class="u-visually-hidden">Venster sluiten</span></button>
-
-						<div class="drawer__content" data-drawer-content="270933">
-							<div class="">
-								<div class="layout layout--wide">
-									<div class="layout__wrapper">
-										<div class="grid grid--align-center">
-											<div class="col--8-12 col--12-12--s col--6-12--l">
-												<div class="content typography">
-													<p>Meer informatie lees je op een bevattelijke manier in deze <a href="https://overheid.vlaanderen.be/sites/default/files/documenten/informatie-vlaanderen/producten/OSLO/OSLO%20Infodag%2031032017%20Final.pdf">presentatie</a>.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="drawer__content" data-drawer-content="270936">
-							<div class="">
-								<div class="layout layout--wide">
-									<div class="layout__wrapper">
-										<div class="grid grid--align-center">
-											<div class="col--8-12 col--12-12--s col--6-12--l">
-												<div class="content typography">
-													<p>Onze <a href="https://docs.google.com/document/d/1tbK17wmgkIlNOXjYRE3Arf3PMI--8TvidBprKOcgcvQ/edit">handleiding</a> legt in verschillende stappen uit hoe je aan de slag kan gaan met de OSLO² vocabularia en applicatieprofielen.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
+			</section>
+-->
+
+			
 		</div>
 	</div>
 	<!-- End page content -->
 
 
 	<div id="vlaanderen-footer">
-		<!-- insert your Vlaanderen-footer-code here -->
-		<script src="//widgets.vlaanderen.be/widget/live/d6d44414e7c242f396ab6da8f8da5198" type="text/javascript">
-		</script> <!-- End global footer-->
-	</div>
-	<script src="https://ui.vlaanderen.be/2.latest/js/vlaanderen-ui.js">
-	</script>
+            <!-- insert your Vlaanderen-footer-code here -->
+          <!--  <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/f1d7f80f-ad17-4f25-92b4-027a99785068/embed"></script>-->
+		 	  <script src="https://tni.widgets.burgerprofiel.dev-vlaanderen.be/api/v1/widget/c0df3610-36b9-4113-a487-05dfed92c317/embed"></script>
+            <!-- End global footer-->
+    </div>
+
 </body>
 </html>
