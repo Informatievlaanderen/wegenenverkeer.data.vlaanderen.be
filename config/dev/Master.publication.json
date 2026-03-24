@@ -7,7 +7,7 @@
   },
   
   {
-    "urlref": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/master/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "e7151be500ae5b69c39bf9d2b13ba27f43961352",
     "name": "master-otl",
