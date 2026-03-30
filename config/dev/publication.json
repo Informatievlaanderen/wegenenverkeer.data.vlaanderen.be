@@ -195,8 +195,8 @@
     "type": "ap"
   }, 
   {
-    "urlref": "/doc/implementatiemodel/ipnetwerk",
-    "seealso": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/ip-netwerk",
+    "seealso": "/doc/implementatiemodel/ip-netwerk/ontwerpdocument/DEV",
     "type": "ap"
   },
    {
@@ -205,8 +205,8 @@
     "type": "ap"
   },
   {
-    "urlref": "/doc/implementatiemodel/snelheidsroodlichtcamera",
-    "seealso": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/snelheids-roodlichtcamera",
+    "seealso": "/doc/implementatiemodel/snelheids-roodlichtcamera/ontwerpdocument/DEV",
     "type": "ap"
   },
   {
@@ -215,8 +215,8 @@
     "type": "ap"
   },
   {
-    "urlref": "/doc/implementatiemodel/punctueleverlichting",
-    "seealso": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/punctuele-verlichting",
+    "seealso": "/doc/implementatiemodel/punctuele-verlichting/ontwerpdocument/DEV",
     "type": "ap"
   },
   {
@@ -325,11 +325,21 @@
     "type": "ap"
   },
   {
-    "urlref": "/doc/implementatiemodel/sluizenstuwen",
-    "seealso": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/sluizen-stuwen",
+    "seealso": "/doc/implementatiemodel/sluizen-stuwen/ontwerpdocument/DEV",
     "type": "ap"
   },
-{
+  {
+    "urlref": "/doc/implementatiemodel/hoogtebegrenzer",
+    "seealso": "/doc/implementatiemodel/hoogtebegrenzer/ontwerpdocument/DEV",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/generieketypes",
+    "seealso": "/doc/implementatiemodel/generieketypes/ontwerpdocument/DEV",
+    "type": "ap"
+  },
+  {
     "urlref": "/doc/implementatiemodel/bewegingsmechanisme",
     "seealso": "/doc/implementatiemodel/bewegingsmechanisme/ontwerpdocument/DEV",
     "type": "ap"
@@ -340,18 +350,22 @@
     "type": "ap"
   },
   {
-    "urlref": "/doc/implementatiemodel/signalisatievlaanderen",
-    "seealso": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/SV5",
+    "urlref": "/doc/implementatiemodel/afwatering-kunstwerken",
+    "seealso": "/doc/implementatiemodel/afwatering-kunstwerken/ontwerpdocument/DEV",
     "type": "ap"
   },
-  
+  {
+    "urlref": "/doc/implementatiemodel/zonnepanelenpark",
+    "seealso": "/doc/implementatiemodel/zonnepanelenpark/ontwerpdocument/DEV",
+    "type": "ap"
+  },
   
   
    {
     "urlref": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "implementatieelement",
+    "name": "wegenenverkeer-implementatieelement",
     "navigation": {
       "prev": ""
     }
@@ -359,7 +373,7 @@
     "urlref": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "onderdeel",
+    "name": "wegenenverkeer-onderdeel",
     "navigation": {
       "prev": ""
     }
@@ -368,7 +382,7 @@
     "urlref": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "installatie",
+    "name": "wegenenverkeer-installatie",
     "navigation": {
       "prev": ""
     }
@@ -377,27 +391,27 @@
     "urlref": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "levenscyclus",
+    "name": "wegenenverkeer-levenscyclus",
     "navigation": {
-      "prev": ""
+	"prev": ""
     }
   }, 
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "abstracten",
+    "name": "wegenenverkeer-abstracten",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   }, 
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "proefenmeting",
+    "name": "wegenenverkeer-proefenmeting",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -406,7 +420,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "aim-object",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   }, 
   
@@ -416,7 +430,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "lijnvormige-elementen",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   }, 
   {
@@ -425,7 +439,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "riolering",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   }, 
   {
@@ -434,7 +448,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "signalisatie",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   }, 
   {
@@ -443,7 +457,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "vegetatie",
     "navigation": {
-      "prev": ""
+      "prev": "/doc/implementatiemodel/vegetatie/ontwerpdocument/2.18.0"
     }
   }, 
   {
@@ -452,7 +466,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "verharding-wegfundering",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   }, 
   {
@@ -478,7 +492,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "eenvoudige-datatypes",
     "navigation": {
-      "prev": ""
+  "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/proeven-metingen/ontwerpdocument/DEV",
@@ -486,7 +500,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "proeven-metingen",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/complexe-datatypes/ontwerpdocument/DEV",
@@ -494,7 +508,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "complexe-datatypes",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/optisch-transport-netwerk/ontwerpdocument/DEV",
@@ -502,7 +516,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "optisch-transport-netwerk",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/ecologische-maatregelen/ontwerpdocument/DEV",
@@ -510,7 +524,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "ecologische-maatregelen",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/kasten-cabines-behuizing/ontwerpdocument/DEV",
@@ -542,7 +556,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "slagboom-doorsteek",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/luidspreker-intercom/ontwerpdocument/DEV",
@@ -550,7 +564,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "luidspreker-intercom",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/camerainstallatie/ontwerpdocument/DEV",
@@ -566,7 +580,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "meten-in-vlaanderen",
     "navigation": {
-      "prev": ""
+   "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/tunnelevacuatie/ontwerpdocument/DEV",
@@ -574,7 +588,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "tunnelevacuatie",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/luchtkwaliteit/ontwerpdocument/DEV",
@@ -582,7 +596,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "luchtkwaliteit",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/brandleiding/ontwerpdocument/DEV",
@@ -590,7 +604,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "brandleiding",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/ventilatie/ontwerpdocument/DEV",
@@ -598,7 +612,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "ventilatie",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/hulpposten/ontwerpdocument/DEV",
@@ -606,7 +620,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "hulpposten",
     "navigation": {
-      "prev": ""
+      "prev": "/doc/implementatiemodel/hulpposten/ontwerpdocument/2.18.0"
     }
   },{
     "urlref": "/doc/implementatiemodel/draagconstructies/ontwerpdocument/DEV",
@@ -614,7 +628,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "draagconstructies",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/trajectcontrole/ontwerpdocument/DEV",
@@ -622,7 +636,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "trajectcontrole",
     "navigation": {
-      "prev": ""
+   "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/verkeersregelinstallatie/ontwerpdocument/DEV",
@@ -638,7 +652,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "zone-30",
     "navigation": {
-      "prev": ""
+      "prev": "/doc/implementatiemodel/zone-30/ontwerpdocument/2.18.0"
     }
   },{
     "urlref": "/doc/implementatiemodel/software-hardware/ontwerpdocument/DEV",
@@ -646,7 +660,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "software-hardware",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/inbreuken-zwaar-vervoer/ontwerpdocument/DEV",
@@ -654,7 +668,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "inbreuken-zwaar-vervoer",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },{
     "urlref": "/doc/implementatiemodel/verlichtingsinstallatie/ontwerpdocument/DEV",
@@ -662,7 +676,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "verlichtingsinstallatie",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -671,17 +685,17 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "fietstelinstallatie",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   
   {
-    "urlref": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/ip-netwerk/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "ipnetwerk",
+    "name": "ip-netwerk",
     "navigation": {
-      "prev": ""
+   "prev": ""
     }
   },
   {
@@ -690,7 +704,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "hoppinpunten",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -699,35 +713,34 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "kabelsenleidingen",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },
   {
-    "urlref": "/doc/implementatiemodel/snelheidsroodlichtcamera/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/snelheids-roodlichtcamera/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "snelheidsroodlichtcamera",
+    "name": "snelheids-roodlichtcamera",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
-    "urlref": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/punctuele-verlichting/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "punctueleverlichting",
+    "name": "punctuele-verlichting",
     "navigation": {
-      "prev": ""
+      "prev": "/doc/implementatiemodel/punctueleverlichting/ontwerpdocument/2.18.0"
     }
   },
   {
-	  "dummy": "experiment",
-    "urlref": "/doc/implementatiemodel/aarding/ontwerpdocument/DEV",
+	"urlref": "/doc/implementatiemodel/aarding/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "aarding",
     "navigation": {
-      "prev": ""
+   "prev": ""
     }
   },
   {
@@ -736,7 +749,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "akela-failover",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },
   {
@@ -745,7 +758,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "elektromechanische-afbakening",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },
   {
@@ -754,7 +767,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "aswegersite",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -772,7 +785,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "meteo",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -781,8 +794,9 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "brug",
     "navigation": {
-      "prev": ""
-    }
+    "prev": ""
+    },
+    "dummy": 1
   },
   {
     "urlref": "/doc/implementatiemodel/constructie-element/ontwerpdocument/DEV",
@@ -790,7 +804,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "constructie-element",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -808,7 +822,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "radioheruitzending",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -826,7 +840,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "zoutbijlaadplaats",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -835,7 +849,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "ups",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -844,7 +858,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "wilddetectiesysteem",
     "navigation": {
-      "prev": ""
+   "prev": ""
     }
 	},
   {
@@ -862,7 +876,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "pompgroep",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
 	},
   {
@@ -871,7 +885,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "fundering",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
 	},
   {
@@ -880,7 +894,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "grondkerende-constructies",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -889,7 +903,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "koker",
     "navigation": {
-      "prev": ""
+     "prev": ""
     }
   },
   {
@@ -898,7 +912,7 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "sites",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
@@ -907,47 +921,70 @@
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "waterlopen",
     "navigation": {
-      "prev": ""
+    "prev": ""
     }
   },
   {
-    "urlref": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/sluizen-stuwen/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
-    "name": "sluizenstuwen",
+    "name": "sluizen-stuwen",
     "navigation": {
-      "prev": ""
-    },
-    "dummy": 0
-  },
+    "prev": ""
+    }
+	},
+  {
+    "urlref": "/doc/implementatiemodel/hoogtebegrenzer/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
+    "name": "hoogtebegrenzer",
+    "navigation": {
+     "prev": ""
+    }
+	},
+  {
+    "urlref": "/doc/implementatiemodel/generieketypes/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
+    "name": "generieketypes",
+    "navigation": {
+   "prev": ""
+    }
+	},
   {
     "urlref": "/doc/implementatiemodel/bewegingsmechanisme/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "bewegingsmechanisme",
     "navigation": {
-      "prev": ""
-    },
-    "dummy": 1
-  },
+     "prev": ""
+    }
+	},
   {
     "urlref": "/doc/implementatiemodel/geleidingsmechanisme/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
     "name": "geleidingsmechanisme",
     "navigation": {
-      "prev": ""
-    },
-    "dummy": 1
-  },
+   "prev": ""
+    }
+	},
   {
-    "urlref": "/doc/implementatiemodel/signalisatievlaanderen/ontwerpdocument/SV5",
+    "urlref": "/doc/implementatiemodel/afwatering-kunstwerken/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "9ad2af730637b2e9d5d32ba78b9b40cda6c69237",
-    "name": "signalisatievlaanderen",
+    "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
+    "name": "afwatering-kunstwerken",
     "navigation": {
-      "prev": ""
-    },
-    "dummy": 1
-  }
+    "prev": ""
+    }
+	},
+  {
+    "urlref": "/doc/implementatiemodel/zonnepanelenpark/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "87f9d161174e390865ce5017dd35a7f21d5f8cd8",
+    "name": "zonnepanelenpark",
+    "navigation": {
+    "prev": ""
+    }
+	}
 ]
