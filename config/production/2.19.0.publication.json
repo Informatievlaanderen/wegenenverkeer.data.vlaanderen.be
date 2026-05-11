@@ -325,8 +325,8 @@
     "type": "ap"
   },
   {
-    "urlref": "/doc/implementatiemodel/sluizen-stuwen",
-    "seealso": "/doc/implementatiemodel/sluizen-stuwen/ontwerpdocument/2.19.0",
+    "urlref": "/doc/implementatiemodel/sluizenstuwen",
+    "seealso": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/2.19.0",
     "type": "ap"
   },
   {
@@ -927,10 +927,10 @@
     }
   },
   {
-    "urlref": "/doc/implementatiemodel/sluizen-stuwen/ontwerpdocument/2.19.0",
+    "urlref": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/2.19.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "473a36cf774722f9fd9d44d620c8f15504ad5855",
-    "name": "sluizen-stuwen",
+    "branchtag": "2898a7fe9bdfeef0d8b713d13c739ffaba7381ff",
+    "name": "sluizenstuwen",
     "navigation": {
       "prev": "/doc/implementatiemodel/sluizenstuwen/ontwerpdocument/2.18.1"
     }
