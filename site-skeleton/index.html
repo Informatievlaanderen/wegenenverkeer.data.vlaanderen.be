@@ -10,6 +10,27 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	
 		<style>
+		
+			/* standaard: mobile */
+			.title-desktop {
+			display: none;
+				}
+
+				.title-mobile {
+				  display: inline;
+				}
+
+			/* vanaf tablet / desktop */
+			@media (min-width: 768px) {
+			  .title-desktop {
+				display: inline;
+			  }
+			  .title-mobile {
+				display: none;
+			  }
+			}
+		
+		
 			.custom-equal-grid {
 			  display: flex;
 			  flex-wrap: wrap;
@@ -47,7 +68,15 @@
 			  overflow: hidden;
 			  min-height: 4.5em;
 			}
+			
+			a,
+			a:visited {
+				color: blue;
+				text-decoration: none;
+			}
+				
 		</style>
+	
 	<script src="https://widgets.tni-vlaanderen.be/api/v1/node_modules/%40govflanders/vl-widget-polyfill/dist/index.js"></script>
    	<script src="https://widgets.tni-vlaanderen.be/api/v1/node_modules/%40govflanders/vl-widget-client/dist/index.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -65,16 +94,13 @@
 	<link rel="apple-touch-icon" sizes="76x76" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
 	<link rel="apple-touch-icon" sizes="120x120" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
 	<link rel="apple-touch-icon" sizes="152x152" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
-	
 </head>
-
-
 
 <body>
   <div style="min-height:44px;;" id="vlaanderen-header">
     <!-- insert your global header here -->
  <!--   <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/b0dae312-e7a6-4612-978a-f0e3b2d975bf/embed"></script> -->
-	<script src="https://widgets.tni-vlaanderen.be/api/v1/widget/f13dfcd7-430e-41ea-b77f-bddf4b6ca0b8/embed"></script>
+	 <script src="https://widgets.tni-vlaanderen.be/api/v1/widget/f13dfcd7-430e-41ea-b77f-bddf4b6ca0b8/embed"></script>
 	
     <!-- end global header-->
   </div>
@@ -138,13 +164,7 @@
 	 				<div class="vl-col--3-12 col--12-12--s vl-col--4-12--m" id="sideNav" style="background-color: #f6f5eE">
 								<nav class="vl-side-navigation js-vl-side-navigation js-vl-sticky js-vl-scrollspy" data-vl-side-navigation data-vl-side-navigation-scrollable data-vl-scrollspy data-vl-scrollspy-mobile=
 									"Componenten" data-vl-sticky data-vl-sticky-offset-top="25" aria-label="inhoudsopgave">
-									
-										
-									
-									
-									
-			
-									
+							
 								  <h5 class="vl-side-navigation__title">Op deze pagina</h5>
 						<div class="vl-side-navigation__content">
 									<ul class="vl-side-navigation__group" style = "font-size: 1.4rem">
@@ -156,7 +176,8 @@
 									  </li>
 									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
 										<a class="vl-side-navigation__toggle" href="#Vocabularia" data-vl-child="vocabularia">
-										  Vocabularia							
+										  Vocabularia
+									
 										</a>
 									  </li>
 									  
@@ -165,72 +186,90 @@
 										  Applicatieprofielen
 									
 										</a>
-									  </li>						
+									  </li>
+									  
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/tree/dev/codelijsten" data-vl-child="keuzelijsten">
+										  Keuzelijsten
+										
+										</a>								
+									  </li>
+									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="mailto:team.bim@mow.vlaanderen.be" data-vl-child="contacteer-ons">
+										  Contacteer ons								
+										</a>								
+									  </li>
 									</ul>
-																						
-									 <div class="vl-side-navigation__content">
-									  <label for="docSelect" class="vl-form__label" style="font-size: 15px;">Technische informatie</label>
-										  <select id="docSelect" class="vl-select vl-select--block">
-											<option value="">-- Maak een keuze --</option>										  
-										 <optgroup label="Wijzingen en uitbreidingen">
-											<option value="/doc/implementatiemodel/master/html/ReleaseNotes.html">Releasenotes - OTL uitbreidingen en wijzigingen</option>
-											
-										</optgroup>
-										 <optgroup label="Technische documentatie">
-											<option value="/doc/implementatiemodel/master/html/OTL-TechnischeDocumentatie.pdf">OTL concepten</option>
-											<option value="/doc/implementatiemodel/master/html/OTL-SQLite.pdf">SQLite datamodel - databank met OTL-structuur</option>						 
-
-										  </optgroup>
-										</select>
 									
-					
-									</div>		
-									<div class="vl-side-navigation__content">
-										  <label for="toolSelect" class="vl-form__label" style="font-size: 15px;">
-											Downloads & Tools
-										  </label>
-
-										  <select id="toolSelect" class="vl-select vl-select--block">
-											<option value="">-- Maak een keuze --</option>
-
-											<optgroup label="Data & downloads">
-											  <option value="/doc/implementatiemodel/master/html/OTL.db">
-												SQLite download – databank met OTL-structuur
-											  </option>
-											  <option value="https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/tree/dev/codelijsten">
-												Keuzelijsten – github directory met ttl files
-											  </option>
-											  <option value="/doc/implementatiemodel/master/html/GeometrieArtefact.zip">
-												Geometrie artefact – geometrische definities
-											  </option>
-											  <option value="/doc/implementatiemodel/master/html/DownloadPaginaPMVersies.html">
-												Postenmapping artefact – koppeling met meetstaat
-											  </option>
-											</optgroup>
-
-											<optgroup label="Tools">
-											  <option value="https://opendata.apps.mow.vlaanderen.be/otltool">
-												SQLite subset – genereer een deel van de OTL
-											  </option>
-											  <option value="https://github.com/davidvlaminck/otlmow-gui/wiki/Installation">
-												OTL Wizard 2 – werken met OTL data
-											  </option>
-											</optgroup>
-
-											<optgroup label="Archief">
-											  <option value="/doc/implementatiemodel/master/html/DownloadPaginaVersies.html">
-												Vorige OTL versies – historisch overzicht
-											  </option>
-											</optgroup>
-
-										  </select>
-										</div>
-										<br>
-					 					<a class="vl-side-navigation__toggle" href="mailto:team.bim@mow.vlaanderen.be" data-vl-child="contacteer-ons">
-										 <span class="vl-icon vl-vi vl-vi-envelope vl-icon--large"  aria-hidden="true"> Contacteer ons</span>										
-										</a>	
+									
+								
+														
+									<h5 class="vl-side-navigation__title">Technische documentatie</h5>										
+									  <div class="vl-side-navigation__content">
+									
+									
+									<ul class="vl-side-navigation__group" style = "font-size: 1.4rem">
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" target="_blank" data-vl-child="release-notes">
+										  Releasenotes									
+										</a>						
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-TechnischeDocumentatie.pdf" target="_blank" data-vl-child="otl-concepten">
+										  OTL concepten				
+										</a>									  
+									  </li>
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL-SQLite.pdf" target="_blank" data-vl-child="sqlite-datamodel">
+										  SQLite datamodel							
+										</a>								
+									  </li>
+									</ul>
+									<h5 class="vl-side-navigation__title">Downloads & Tools</h5>
+									
+						
+									<ul class="vl-side-navigation__group" style = "font-size: 1.4rem">
+									  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/OTL.db" data-vl-child="sqlite-download">
+										  OTL SQLite download
+										 
+										</a>
+									  </li>
+										<li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/GeometrieArtefact.zip" target="_blank" data-vl-child="geometrie-artefact">
+										  Geometrie artefact download
+										</a>
+										<li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/DownloadPaginaPMVersies.html" target="_blank" data-vl-child="postenmapping-artefact">
+										  Postenmapping artefact download
+							
+										</a>													
+									  </li>		
+									  </li>			
+									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://opendata.apps.mow.vlaanderen.be/otltool target="_blank"" data-vl-child="sqlite-subset-aanmaken">
+										  OTL subset aanmaken
+										
+										</a>								
+									  </li>
+									   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="https://github.com/davidvlaminck/otlmow-gui/wiki/Installation" target="_blank" data-vl-child="otl-wizard-2">
+										  OTL Wizard 2 (werken met OTL-data)
+										  
+										</a>								
+									  </li>								  
+									  					 							  			  
+										<li class="vl-side-navigation__item vl-side-navigation__item--parent">
+										<a class="vl-side-navigation__toggle" href="/doc/implementatiemodel/master/html/DownloadPaginaVersies.html" target="_blank" data-vl-child="vorige-otl-versies">
+										  Vorige OTL versies
+								
+										</a>								
+									  </li>	
+																		  
+									</ul>
+																		
+									</div>												  							  
 								</nav>
-												  
 						</div>
 
 					</div>
@@ -241,16 +280,14 @@
 		
 			<section class="vl-region">	
 				<div class="vl-layout">
-					 <div class="vl-grid" style="background-color : #ebebeb">
-						<Br>
-							<p>De <a href="#Vocabularia"><strong>vocabularia</strong></a> op deze pagina zijn de basis voor open semantische informatiestandaarden, ze bieden een gedeeld begrippenkader voor bepaalde concepten met een focus op gegevensuitwisseling en zijn tot stand gekomen in de werkgroep <a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/oslo" target="_blank">OSLO</a> van Informatie Vlaanderen.</p>
+					 <div class="vl-grid">
+						<div class="vl-col--12-12 vl-col--12-12--s">
+							<p>De <strong>vocabularia</strong> op deze pagina zijn de basis voor open semantische informatiestandaarden, ze bieden een gedeeld begrippenkader voor bepaalde concepten met een focus op gegevensuitwisseling en zijn tot stand gekomen in de werkgroep <a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-diensten-en-platformen/oslo" target="_blank">OSLO</a> van Informatie Vlaanderen.</p>
 							<br>
 
-							<p>Een <a href="#Implementatiemodellen"><strong>implementatiemodel</strong></a> is een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten. Een implementatiemodel dient als documentatie voor analisten, ontwikkelaars en dataleveranciers.</p>
+							<p>Een <strong>implementatiemodel</strong> is een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten. Een implementatiemodel dient als documentatie voor analisten, ontwikkelaars en dataleveranciers.</p>
 							<br>
-						</div>
-						<div class="vl-col--12-12 vl-col--12-12--s">
-						<Br>
+							
 							<p>Het implementatiemodel (OTL) wegenenverkeer bouwt voort op een reeks bestaanden standaarden waaronder:<br>
 							
 								<ul class="vl-link-list vl-link-list--inline vl-link-list--display-inline  vl-link-list--small">
@@ -292,20 +329,21 @@
 							<span class="vl-icon vl-vi vl-vi-envelope vl-icon--large"  aria-hidden="true"></span>
 							<a href="mailto:team.bim@mow.vlaanderen.be" target="_blank"> Contacteer ons</a> voor alle mogelijke vragen, opmerking of feedback.
 							</p>
+							<br>
 						</div>
 					</div>						
 				</div>
 			</section>
 
 
-			<section class="vl-infoblock" id="Implementatiemodellen">	
+			<section class="vl-infoblock vl-infoblock--news" id="Implementatiemodellen">	
 		
 			<div class="vl-layout">
 				<div class="vl-grid">
 					<div class="vl-col--12-12 vl-col--12-12--s">
 			
 							<header class="vl-infoblock__header" role="presentation">
-								<i class="vl-infoblock__header__icon vl-vi vl-vi-diagram" aria-hidden="true"></i>
+								<i class="vl-infoblock__header__icon" aria-hidden="true"></i>
 									<h1 class="vl-infoblock__title">Implementatiemodellen</h1>
 							</header>
 							
@@ -1092,12 +1130,12 @@
 			</section>
 			<br>
 			
-			<section class="vl-infoblock" id="Applicatieprofielen">
+			<section class="vl-infoblock vl-infoblock--news" id="Applicatieprofielen">
 				<div class="vl-layout">
 					<div class="vl-grid">
 						<div class="vl-col--12-12 vl-col--12-12--s">
 							<header class="vl-infoblock__header" role="presentation">
-							<i class="vl-infoblock__header__icon vl-vi vl-vi-computer-screen" aria-hidden="true"></i>
+								<i class="vl-infoblock__header__icon" aria-hidden="true"></i>
 									<h1 class="vl-infoblock__title">Applicatieprofielen</h1>
 							</header>
 							
@@ -1152,51 +1190,15 @@
 		
 	</div>
 	<!-- End page content -->
-<script src="https://data.vlaanderen.be/assets/dist/side-navigation.js"></script>
+			<script src="https://data.vlaanderen.be/assets/dist/side-navigation.js"></script>
 
 
-<script>
-document.getElementById("toolSelect").addEventListener("change", function() {
-    const url = this.value;
 
-    if (!url) return;
-
-    // externe links in nieuwe tab
-    if (url.endsWith(".zip") || url.endsWith(".db") || url.endsWith(".pdf")) {
-        window.location.href = url;
-    } else {
-        // interne links in zelfde tab
-        
-		window.open(url, "_blank");
-    }
-
-    // reset naar placeholder
-    this.selectedIndex = 0;
-});
-
-document.getElementById("docSelect").addEventListener("change", function() {
-    const url = this.value;
-
-    if (!url) return;
-
-    // externe links in nieuwe tab
-    if (url.endsWith(".zip") || url.endsWith(".db") || url.endsWith(".pdf")) {
-        window.location.href = url;
-    } else {
-        // interne links in zelfde tab
-        
-		window.open(url, "_blank");
-    }
-
-    // reset naar placeholder
-    this.selectedIndex = 0;
-});
-</script>
 
 	<div id="vlaanderen-footer">
             <!-- insert your Vlaanderen-footer-code here -->
           <!--  <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/f1d7f80f-ad17-4f25-92b4-027a99785068/embed"></script>-->
-		 	<script src="https://widgets.tni-vlaanderen.be/api/v1/widget/9b51d2dc-844e-4962-a214-1fb8691c0375/embed"></script>
+		 	  <script src="https://widgets.tni-vlaanderen.be/api/v1/widget/9b51d2dc-844e-4962-a214-1fb8691c0375/embed"></script>
             <!-- End global footer-->
     </div>
 
