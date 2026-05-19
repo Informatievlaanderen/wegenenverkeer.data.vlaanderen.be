@@ -195,8 +195,8 @@
     "type": "ap"
   }, 
   {
-    "urlref": "/doc/implementatiemodel/ip-netwerk",
-    "seealso": "/doc/implementatiemodel/ip-netwerk/ontwerpdocument/2.19.0",
+    "urlref": "/doc/implementatiemodel/ipnetwerk",
+    "seealso": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.19.0",
     "type": "ap"
   },
    {
@@ -691,10 +691,10 @@
   },
   
   {
-    "urlref": "/doc/implementatiemodel/ip-netwerk/ontwerpdocument/2.19.0",
+    "urlref": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.19.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "473a36cf774722f9fd9d44d620c8f15504ad5855",
-    "name": "ip-netwerk",
+    "branchtag": "8103f73326ae596718afcbb9a1204f706369f312",
+    "name": "ipnetwerk",
     "navigation": {
       "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.18.1"
     }
