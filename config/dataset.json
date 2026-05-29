@@ -4621,8 +4621,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/Kltest1.ttl"
     },
     {
-      "urlRef": "test",
-      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/test.ttl"
+      "urlRef": "dummy",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/dummy.ttl"
     }
   ]
 }
