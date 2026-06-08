@@ -4121,6 +4121,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlVentilatorRichting.ttl"
     },
     {
+      "urlRef": "KlVerankeringSV",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/KlVerankeringSV.ttl"
+    },
+    {
       "urlRef": "KlVerkeersbordCategorie",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlVerkeersbordCategorie.ttl"
     },
