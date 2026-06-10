@@ -2557,6 +2557,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlOnderbouwType.ttl"
     },
     {
+      "urlRef": "KlOndergrondSV",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/KlOndergrondSV.ttl"
+    },
+    {
       "urlRef": "KlOnderwaterkruisingAanlegWijze",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlOnderwaterkruisingAanlegWijze.ttl"
     },
