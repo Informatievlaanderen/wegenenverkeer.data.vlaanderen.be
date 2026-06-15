@@ -2069,6 +2069,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/KlLichtsensorMerk.ttl"
     },
     {
+      "urlRef": "KlLichtsensorMerktest",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/KlLichtsensorMerktest.ttl"
+    },
+    {
       "urlRef": "KlLichtsensorModelnaam",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/KlLichtsensorModelnaam.ttl"
     },
@@ -2247,6 +2251,10 @@
     {
       "urlRef": "KlMateriaalBusEnRing",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/KlMateriaalBusEnRing.ttl"
+    },
+    {
+      "urlRef": "KlMateriaalCentreerstuk",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/KlMateriaalCentreerstuk.ttl"
     },
     {
       "urlRef": "KlMateriaalDeklaag",
@@ -3671,6 +3679,10 @@
     {
       "urlRef": "KlTypeBallast",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/KlTypeBallast.ttl"
+    },
+    {
+      "urlRef": "KlTypeBeschermlaag",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/dev/codelijsten/KlTypeBeschermlaag.ttl"
     },
     {
       "urlRef": "KlTypeBeschoeiing",
