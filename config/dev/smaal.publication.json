@@ -1,0 +1,132 @@
+[
+  { 
+    "urlref": "/ns/implementatieelement",
+    "seealso": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/onderdeel",
+    "seealso": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/installatie",
+    "seealso": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/levenscyclus",
+    "seealso": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/abstracten",
+    "seealso": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/proefenmeting",
+    "seealso": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/DEV",
+    "type": "voc"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/aim-object",
+    "seealso": "/doc/implementatiemodel/aim-object/ontwerpdocument/DEV",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/lijnvormige-elementen",
+    "seealso": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/DEV",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/riolering",
+    "seealso": "/doc/implementatiemodel/riolering/ontwerpdocument/DEV",
+    "type": "ap"
+  },
+  
+  
+  
+   {
+    "urlref": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7d4f2357fccc7b8832a629588c7b089d4bcd548e",
+    "name": "wegenenverkeer-implementatieelement",
+    "navigation": {
+      "prev": ""
+    }
+  },{
+    "urlref": "/doc/vocabularium/wegenenverkeer/onderdeel/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7d4f2357fccc7b8832a629588c7b089d4bcd548e",
+    "name": "wegenenverkeer-onderdeel",
+    "navigation": {
+      "prev": ""
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/installatie/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7d4f2357fccc7b8832a629588c7b089d4bcd548e",
+    "name": "wegenenverkeer-installatie",
+    "navigation": {
+      "prev": ""
+    }
+  }, 
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/levenscyclus/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7d4f2357fccc7b8832a629588c7b089d4bcd548e",
+    "name": "wegenenverkeer-levenscyclus",
+    "navigation": {
+	"prev": ""
+    }
+  }, 
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/abstracten/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7d4f2357fccc7b8832a629588c7b089d4bcd548e",
+    "name": "wegenenverkeer-abstracten",
+    "navigation": {
+    "prev": ""
+    }
+  }, 
+  {
+    "urlref": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7d4f2357fccc7b8832a629588c7b089d4bcd548e",
+    "name": "wegenenverkeer-proefenmeting",
+    "navigation": {
+    "prev": ""
+    }
+  },
+  {
+    "urlref": "/doc/implementatiemodel/aim-object/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7d4f2357fccc7b8832a629588c7b089d4bcd548e",
+    "name": "aim-object",
+    "navigation": {
+     "prev": ""
+    }
+  }, 
+  
+  {
+    "urlref": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7d4f2357fccc7b8832a629588c7b089d4bcd548e",
+    "name": "lijnvormige-elementen",
+    "navigation": {
+     "prev": ""
+    }
+  }, 
+  {
+    "urlref": "/doc/implementatiemodel/riolering/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "7d4f2357fccc7b8832a629588c7b089d4bcd548e",
+    "name": "riolering",
+    "navigation": {
+     "prev": ""
+    }
+  }
+	}
+]
