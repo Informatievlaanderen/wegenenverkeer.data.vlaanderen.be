@@ -3,7 +3,8 @@
   {
     "urlref": "/doc/implementatiemodel/master",
     "seealso": "/doc/implementatiemodel/master/ontwerpdocument/DEV",
-    "type": "ap"
+    "type": "ap",
+    "dummy": "001"
   },
   
   {
@@ -14,6 +15,6 @@
     "navigation": {
       "prev": ""
     },
-    "dummy": 0
+    "dummy": 1
   }
 ]
