@@ -489,7 +489,7 @@
   {
     "urlref": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.19.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "e7722b34a346e211ffacc872ef2a75975007bbed",
+    "branchtag": "87ac35373afeac36407b0c8a4cf83c6abf68dd86",
     "name": "aim-object",
     "navigation": {
       "prev": "/doc/implementatiemodel/aim-object/ontwerpdocument/2.18.1"
@@ -499,7 +499,7 @@
   {
     "urlref": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.19.0",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "e7722b34a346e211ffacc872ef2a75975007bbed",
+    "branchtag": "87ac35373afeac36407b0c8a4cf83c6abf68dd86",
     "name": "lijnvormige-elementen",
     "navigation": {
       "prev": "/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/2.18.1"
