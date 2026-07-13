@@ -2001,6 +2001,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMateriaalBusEnRing.ttl"
     },
     {
+      "urlRef": "KlMateriaalCentreerstuk",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMateriaalCentreerstuk.ttl"
+    },
+    {
       "urlRef": "KlMateriaalDeklaag",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMateriaalDeklaag.ttl"
     },
