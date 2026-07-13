@@ -2301,6 +2301,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlOntvangerToepassing.ttl"
     },
     {
+      "urlRef": "KlOntwerpbelasting",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlOntwerpbelasting.ttl"
+    },
+    {
       "urlRef": "KlOpenInfiltratievoorzieningType",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlOpenInfiltratievoorzieningType.ttl"
     },
@@ -3419,6 +3423,10 @@
     {
       "urlRef": "KlTypeKabelsteun",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeKabelsteun.ttl"
+    },
+    {
+      "urlRef": "KlTypeKlem",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeKlem.ttl"
     },
     {
       "urlRef": "KlTypeKokervoeg",
