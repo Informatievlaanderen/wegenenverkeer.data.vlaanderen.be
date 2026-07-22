@@ -3297,6 +3297,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeBallast.ttl"
     },
     {
+      "urlRef": "KlTypeBeschermlaag",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeBeschermlaag.ttl"
+    },
+    {
       "urlRef": "KlTypeBeschoeiing",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeBeschoeiing.ttl"
     },
