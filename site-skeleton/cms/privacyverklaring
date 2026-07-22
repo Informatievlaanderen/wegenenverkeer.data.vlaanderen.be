@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://www.example.com/nieuwe-pagina">
-    <title>Doorsturen...</title>
+   <script>
+        window.location.href = "https://wegenenverkeer.be/privacy";
+    </script>
 </head>
 <body>
-    <p>Je wordt doorgestuurd. Gebeurt dit niet automatisch?
-        <a href="https://wegenenverkeer.be/privacy">Klik hier.</a>
-    </p>
 </body>
 </html>
