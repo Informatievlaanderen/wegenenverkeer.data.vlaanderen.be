@@ -3549,6 +3549,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeTWC.ttl"
     },
     {
+      "urlRef": "KlTypeTakel",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeTakel.ttl"
+    },
+    {
       "urlRef": "KlTypeTrekker",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeTrekker.ttl"
     },
