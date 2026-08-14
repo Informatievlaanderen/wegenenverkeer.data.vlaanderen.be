@@ -3305,6 +3305,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTsklepAfsluiterMateriaal.ttl"
     },
     {
+      "urlRef": "KlTypeAandrijvingTakel",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeAandrijvingTakel.ttl"
+    },
+    {
       "urlRef": "KlTypeAfwateringsgeul",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeAfwateringsgeul.ttl"
     },
