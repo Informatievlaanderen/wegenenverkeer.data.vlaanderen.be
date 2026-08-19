@@ -1609,6 +1609,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlKleurReflector.ttl"
     },
     {
+      "urlRef": "KlKleurStandaard",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlKleurStandaard.ttl"
+    },
+    {
       "urlRef": "KlKleurSupp",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlKleurSupp.ttl"
     },
