@@ -1581,6 +1581,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlKerendeKarakterSluis.ttl"
     },
     {
+      "urlRef": "KlKeuringsTypeElektrisch",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlKeuringsTypeElektrisch.ttl"
+    },
+    {
       "urlRef": "KlKeuringsresultaat",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlKeuringsresultaat.ttl"
     },
