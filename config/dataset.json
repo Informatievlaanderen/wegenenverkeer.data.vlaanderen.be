@@ -2053,6 +2053,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMateriaalGolfplaat.ttl"
     },
     {
+      "urlRef": "KlMateriaalKuipKWSAfscheider",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMateriaalKuipKWSAfscheider.ttl"
+    },
+    {
       "urlRef": "KlMateriaalLadder",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMateriaalLadder.ttl"
     },
