@@ -2145,6 +2145,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMeetmicrofoonModelnaam.ttl"
     },
     {
+      "urlRef": "KlMeetprincipeDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMeetprincipeDebietmeter.ttl"
+    },
+    {
       "urlRef": "KlMerkDebietmeter",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMerkDebietmeter.ttl"
     },
@@ -2171,6 +2175,10 @@
     {
       "urlRef": "KlModelnaamRookdetector",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlModelnaamRookdetector.ttl"
+    },
+    {
+      "urlRef": "KlMontagewijzeDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMontagewijzeDebietmeter.ttl"
     },
     {
       "urlRef": "KlMotorbeveiligingMerk",
