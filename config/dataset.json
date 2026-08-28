@@ -2145,6 +2145,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMeetmicrofoonModelnaam.ttl"
     },
     {
+      "urlRef": "KlMerkDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMerkDebietmeter.ttl"
+    },
+    {
       "urlRef": "KlMerkRookdetector",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMerkRookdetector.ttl"
     },
