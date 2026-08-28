@@ -2165,6 +2165,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMobieleNetwerktechnologie.ttl"
     },
     {
+      "urlRef": "KlModelnaamDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlModelnaamDebietmeter.ttl"
+    },
+    {
       "urlRef": "KlModelnaamRookdetector",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlModelnaamRookdetector.ttl"
     },
