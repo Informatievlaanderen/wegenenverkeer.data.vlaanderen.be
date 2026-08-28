@@ -569,6 +569,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlBrandblusserType.ttl"
     },
     {
+      "urlRef": "KlBranddetectorSensortype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlBranddetectorSensortype.ttl"
+    },
+    {
       "urlRef": "KlBrandhaspelMerk",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlBrandhaspelMerk.ttl"
     },
