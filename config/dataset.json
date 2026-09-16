@@ -661,6 +661,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlCameraBeeldverwerkingstype.ttl"
     },
     {
+      "urlRef": "KlCameraDoeleinde",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlCameraDoeleinde.ttl"
+    },
+    {
       "urlRef": "KlCameraMerk",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlCameraMerk.ttl"
     },
