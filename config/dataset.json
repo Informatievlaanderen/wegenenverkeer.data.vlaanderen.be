@@ -3297,6 +3297,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlToegankelijkheid.ttl"
     },
     {
+      "urlRef": "KlToegankelijkheidPlaats",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlToegankelijkheidPlaats.ttl"
+    },
+    {
       "urlRef": "KlToeslagmiddelBeton",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlToeslagmiddelBeton.ttl"
     },
