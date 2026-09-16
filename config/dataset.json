@@ -3473,6 +3473,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeGeleidewerk.ttl"
     },
     {
+      "urlRef": "KlTypeGeleidingssteun",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeGeleidingssteun.ttl"
+    },
+    {
       "urlRef": "KlTypeGlijmateriaal",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeGlijmateriaal.ttl"
     },
