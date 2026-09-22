@@ -493,6 +493,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlBoogpaalType.ttl"
     },
     {
+      "urlRef": "KlBoolean",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlBoolean.ttl"
+    },
+    {
       "urlRef": "KlBoomConditiebeoordeling",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlBoomConditiebeoordeling.ttl"
     },
@@ -563,6 +567,10 @@
     {
       "urlRef": "KlBrandblusserType",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlBrandblusserType.ttl"
+    },
+    {
+      "urlRef": "KlBranddetectorSensortype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlBranddetectorSensortype.ttl"
     },
     {
       "urlRef": "KlBrandhaspelMerk",
@@ -651,6 +659,10 @@
     {
       "urlRef": "KlCameraBeeldverwerkingstype",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlCameraBeeldverwerkingstype.ttl"
+    },
+    {
+      "urlRef": "KlCameraDoeleinde",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlCameraDoeleinde.ttl"
     },
     {
       "urlRef": "KlCameraMerk",
@@ -1577,6 +1589,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlKerendeKarakterSluis.ttl"
     },
     {
+      "urlRef": "KlKeuringsTypeElektrisch",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlKeuringsTypeElektrisch.ttl"
+    },
+    {
       "urlRef": "KlKeuringsresultaat",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlKeuringsresultaat.ttl"
     },
@@ -1599,6 +1615,10 @@
     {
       "urlRef": "KlKleurReflector",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlKleurReflector.ttl"
+    },
+    {
+      "urlRef": "KlKleurStandaard",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlKleurStandaard.ttl"
     },
     {
       "urlRef": "KlKleurSupp",
@@ -1797,6 +1817,22 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlLampTypeIVSB.ttl"
     },
     {
+      "urlRef": "KlLand",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlLand.ttl"
+    },
+    {
+      "urlRef": "KlLandcode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlLandcode.ttl"
+    },
+    {
+      "urlRef": "KlLangsgrachtDoorsnede",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlLangsgrachtDoorsnede.ttl"
+    },
+    {
+      "urlRef": "KlLangsgrachtType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlLangsgrachtType.ttl"
+    },
+    {
       "urlRef": "KlLantaarnLamptype",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlLantaarnLamptype.ttl"
     },
@@ -1847,6 +1883,10 @@
     {
       "urlRef": "KlLichtsensorMerk",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlLichtsensorMerk.ttl"
+    },
+    {
+      "urlRef": "KlLichtsensorMerktest",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlLichtsensorMerktest.ttl"
     },
     {
       "urlRef": "KlLichtsensorModelnaam",
@@ -2021,6 +2061,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMateriaalGolfplaat.ttl"
     },
     {
+      "urlRef": "KlMateriaalKuipKWSAfscheider",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMateriaalKuipKWSAfscheider.ttl"
+    },
+    {
       "urlRef": "KlMateriaalLadder",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMateriaalLadder.ttl"
     },
@@ -2109,6 +2153,14 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMeetmicrofoonModelnaam.ttl"
     },
     {
+      "urlRef": "KlMeetprincipeDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMeetprincipeDebietmeter.ttl"
+    },
+    {
+      "urlRef": "KlMerkDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMerkDebietmeter.ttl"
+    },
+    {
       "urlRef": "KlMerkRookdetector",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMerkRookdetector.ttl"
     },
@@ -2125,8 +2177,16 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMobieleNetwerktechnologie.ttl"
     },
     {
+      "urlRef": "KlModelnaamDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlModelnaamDebietmeter.ttl"
+    },
+    {
       "urlRef": "KlModelnaamRookdetector",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlModelnaamRookdetector.ttl"
+    },
+    {
+      "urlRef": "KlMontagewijzeDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlMontagewijzeDebietmeter.ttl"
     },
     {
       "urlRef": "KlMotorbeveiligingMerk",
@@ -2519,6 +2579,10 @@
     {
       "urlRef": "KlProductieproces",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlProductieproces.ttl"
+    },
+    {
+      "urlRef": "KlProefBoomConflicten",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlProefBoomConflicten.ttl"
     },
     {
       "urlRef": "KlProfielVastAanslag",
@@ -3169,6 +3233,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTerugslagklepType.ttl"
     },
     {
+      "urlRef": "KlTest201",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTest201.ttl"
+    },
+    {
       "urlRef": "KlTestnorm",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTestnorm.ttl"
     },
@@ -3229,6 +3297,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlToegankelijkheid.ttl"
     },
     {
+      "urlRef": "KlToegankelijkheidPlaats",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlToegankelijkheidPlaats.ttl"
+    },
+    {
       "urlRef": "KlToeslagmiddelBeton",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlToeslagmiddelBeton.ttl"
     },
@@ -3273,6 +3345,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTsklepAfsluiterMateriaal.ttl"
     },
     {
+      "urlRef": "KlTypeAandrijvingTakel",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeAandrijvingTakel.ttl"
+    },
+    {
       "urlRef": "KlTypeAfwateringsgeul",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeAfwateringsgeul.ttl"
     },
@@ -3311,6 +3387,10 @@
     {
       "urlRef": "KlTypeBevestigingBolder",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeBevestigingBolder.ttl"
+    },
+    {
+      "urlRef": "KlTypeBevestigingHijspunt",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeBevestigingHijspunt.ttl"
     },
     {
       "urlRef": "KlTypeBevestigingLadder",
@@ -3391,6 +3471,10 @@
     {
       "urlRef": "KlTypeGeleidewerk",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeGeleidewerk.ttl"
+    },
+    {
+      "urlRef": "KlTypeGeleidingssteun",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeGeleidingssteun.ttl"
     },
     {
       "urlRef": "KlTypeGlijmateriaal",
@@ -3511,6 +3595,10 @@
     {
       "urlRef": "KlTypeTWC",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeTWC.ttl"
+    },
+    {
+      "urlRef": "KlTypeTakel",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlTypeTakel.ttl"
     },
     {
       "urlRef": "KlTypeTrekker",
@@ -4049,6 +4137,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlWindmeterType.ttl"
     },
     {
+      "urlRef": "KlWindrichting",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlWindrichting.ttl"
+    },
+    {
       "urlRef": "KlWvLedAantalTeVerlichtenRijstroken",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlWvLedAantalTeVerlichtenRijstroken.ttl"
     },
@@ -4103,6 +4195,10 @@
     {
       "urlRef": "KlZelfsluiterUitvoeringswijze",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlZelfsluiterUitvoeringswijze.ttl"
+    },
+    {
+      "urlRef": "KlZendOntvangerModelnaam",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlZendOntvangerModelnaam.ttl"
     },
     {
       "urlRef": "KlZenderMerk",
