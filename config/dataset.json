@@ -657,6 +657,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlCameraBeeldverwerkingstype.ttl"
     },
     {
+      "urlRef": "KlCameraDoeleinde",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlCameraDoeleinde.ttl"
+    },
+    {
       "urlRef": "KlCameraMerk",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlCameraMerk.ttl"
     },
@@ -1607,6 +1611,10 @@
     {
       "urlRef": "KlKleurReflector",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlKleurReflector.ttl"
+    },
+    {
+      "urlRef": "KlKleurStandaard",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlKleurStandaard.ttl"
     },
     {
       "urlRef": "KlKleurSupp",
