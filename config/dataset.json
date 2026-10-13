@@ -377,10 +377,6 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlBeschermingsklasse.ttl"
     },
     {
-      "urlRef": "KlBeslotenheidPlaats",
-      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlBeslotenheidPlaats.ttl"
-    },
-    {
       "urlRef": "KlBestratingAfwerking",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlBestratingAfwerking.ttl"
     },
