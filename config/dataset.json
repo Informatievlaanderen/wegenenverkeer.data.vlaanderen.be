@@ -1809,6 +1809,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlLegeLijst.ttl"
     },
     {
+      "urlRef": "KlLenstypeLEDVerlichting",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlLenstypeLEDVerlichting.ttl"
+    },
+    {
       "urlRef": "KlLetterCijfer",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlLetterCijfer.ttl"
     },
