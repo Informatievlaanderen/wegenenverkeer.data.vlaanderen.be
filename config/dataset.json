@@ -1577,6 +1577,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlKerendeKarakterSluis.ttl"
     },
     {
+      "urlRef": "KlKeuringsTypeElektrisch",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlKeuringsTypeElektrisch.ttl"
+    },
+    {
       "urlRef": "KlKeuringsresultaat",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlKeuringsresultaat.ttl"
     },
@@ -2127,6 +2131,10 @@
     {
       "urlRef": "KlMobieleNetwerktechnologie",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMobieleNetwerktechnologie.ttl"
+    },
+    {
+      "urlRef": "KlModelnaamDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlModelnaamDebietmeter.ttl"
     },
     {
       "urlRef": "KlModelnaamRookdetector",
