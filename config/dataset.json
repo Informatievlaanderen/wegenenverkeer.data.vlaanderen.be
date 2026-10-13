@@ -3345,6 +3345,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeBevestigingBolder.ttl"
     },
     {
+      "urlRef": "KlTypeBevestigingHijspunt",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeBevestigingHijspunt.ttl"
+    },
+    {
       "urlRef": "KlTypeBevestigingLadder",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlTypeBevestigingLadder.ttl"
     },
