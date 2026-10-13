@@ -565,6 +565,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlBrandblusserType.ttl"
     },
     {
+      "urlRef": "KlBranddetectorSensortype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlBranddetectorSensortype.ttl"
+    },
+    {
       "urlRef": "KlBrandhaspelMerk",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlBrandhaspelMerk.ttl"
     },
@@ -2029,6 +2033,10 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMateriaalGolfplaat.ttl"
     },
     {
+      "urlRef": "KlMateriaalKuipKWSAfscheider",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMateriaalKuipKWSAfscheider.ttl"
+    },
+    {
       "urlRef": "KlMateriaalLadder",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMateriaalLadder.ttl"
     },
@@ -2115,6 +2123,10 @@
     {
       "urlRef": "KlMeetmicrofoonModelnaam",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMeetmicrofoonModelnaam.ttl"
+    },
+    {
+      "urlRef": "KlMerkDebietmeter",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/master/codelijsten/KlMerkDebietmeter.ttl"
     },
     {
       "urlRef": "KlMerkRookdetector",
