@@ -486,7 +486,7 @@
   {
     "urlref": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "682b04b88a4c689bc6f14decfd0701947a391c80",
+    "branchtag": "c87b7e9002de3d193d9676654542b6055bc51dfe",
     "name": "wegenenverkeer-proefenmeting",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/proefenmeting/ontwerpdocument/2.20.0"
@@ -771,7 +771,7 @@
   {
     "urlref": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "682b04b88a4c689bc6f14decfd0701947a391c80",
+    "branchtag": "c87b7e9002de3d193d9676654542b6055bc51dfe",
     "name": "ipnetwerk",
     "navigation": {
       "prev": "/doc/implementatiemodel/ipnetwerk/ontwerpdocument/2.20.0"
