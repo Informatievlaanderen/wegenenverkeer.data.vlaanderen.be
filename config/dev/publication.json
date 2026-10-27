@@ -527,12 +527,12 @@
     }
   }, 
   {
-    "urlref": "/doc/implementatiemodel/isatie/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/signalisatie/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "682b04b88a4c689bc6f14decfd0701947a391c80",
-    "name": "isatie",
+    "name": "signalisatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/isatie/ontwerpdocument/2.20.0",
+      "prev": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.20.0",
     "dummy": 1
     }
   }, 
