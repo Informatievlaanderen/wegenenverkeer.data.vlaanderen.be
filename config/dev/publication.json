@@ -54,8 +54,8 @@
     "dummy": 1
   },
   {
-    "urlref": "/doc/implementatiemodel/signalisatie",
-    "seealso": "/doc/implementatiemodel/signalisatie/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/isatie",
+    "seealso": "/doc/implementatiemodel/isatie/ontwerpdocument/DEV",
     "type": "ap",
     "dummy": 1
   },
@@ -437,12 +437,18 @@
     "type": "ap",
     "dummy": 1
   },
+  {
+    "urlref": "/doc/implementatiemodel/implementatietypes",
+    "seealso": "/doc/implementatiemodel/implementatietypes/ontwerpdocument/DEV",
+    "type": "ap",
+    "dummy": 1
+  },
   
   
    {
     "urlref": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
-    "branchtag": "682b04b88a4c689bc6f14decfd0701947a391c80",
+    "branchtag": "161d5522c9b141aae3f200b7a5a67ae36937e928",
     "name": "wegenenverkeer-implementatieelement",
     "navigation": {
       "prev": "/doc/vocabularium/wegenenverkeer/implementatieelement/ontwerpdocument/2.20.0"
@@ -521,12 +527,12 @@
     }
   }, 
   {
-    "urlref": "/doc/implementatiemodel/signalisatie/ontwerpdocument/DEV",
+    "urlref": "/doc/implementatiemodel/isatie/ontwerpdocument/DEV",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "682b04b88a4c689bc6f14decfd0701947a391c80",
-    "name": "signalisatie",
+    "name": "isatie",
     "navigation": {
-      "prev": "/doc/implementatiemodel/signalisatie/ontwerpdocument/2.20.0",
+      "prev": "/doc/implementatiemodel/isatie/ontwerpdocument/2.20.0",
     "dummy": 1
     }
   }, 
@@ -1072,6 +1078,15 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
     "branchtag": "682b04b88a4c689bc6f14decfd0701947a391c80",
     "name": "hijsenhefwerktuig",
+    "navigation": {
+      "prev": ""
+    }
+	},
+  {
+    "urlref": "/doc/implementatiemodel/implementatietypes/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "161d5522c9b141aae3f200b7a5a67ae36937e928",
+    "name": "implementatietypes",
     "navigation": {
       "prev": ""
     }
