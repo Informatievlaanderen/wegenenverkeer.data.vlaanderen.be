@@ -1,0 +1,18 @@
+[
+
+   {
+    "urlref": "/doc/applicatieprofiel/signalisatievlaanderen",
+    "seealso": "/doc/applicatieprofiel/signalisatievlaanderen/ontwerpdocument/DEV",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/signalisatievlaanderen/ontwerpdocument/DEV",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer",
+    "branchtag": "29efcd0339a024074db5a813bd7ffb50c7b0fc9b",
+    "name": "signalisatievlaanderen",
+    "navigation": {
+      "prev": "",
+    "dummy": 0
+    }
+  }
+]
