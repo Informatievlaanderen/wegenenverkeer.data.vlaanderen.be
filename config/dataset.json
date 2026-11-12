@@ -4249,11 +4249,11 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlZuilTGCModelnaam.ttl"
     },
     {
-      "urlRef": "KlOndergrondSV.ttl",
+      "urlRef": "KlOndergrondSV",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlOndergrondSV.ttl"
     },
     {
-      "urlRef": "KlVerankeringSV.ttl",
+      "urlRef": "KlVerankeringSV",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/refs/heads/test/codelijsten/KlVerankeringSV.ttl"
     }
   ]
